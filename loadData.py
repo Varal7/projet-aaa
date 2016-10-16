@@ -3,9 +3,11 @@ import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
 
-
-X=np.genfromtxt('data_players_7stats.csv',delimiter=';',skip_header=1,usecols=range(8,15))
-names=np.genfromtxt('data_players_7stats.csv',delimiter=';',skip_header=1,usecols=range(1,3),dtype=str)
+# X contient notre data 7 stats
+X = np.genfromtxt('data_players_7stats.csv',delimiter=';',skip_header=1,usecols=range(8,15))
+# names contient les noms des joueurs et leur équipe
+names = np.genfromtxt('data_players_7stats.csv',delimiter=';',skip_header=1,usecols=range(1,3),dtype=str)
+# column contient les noms des colonnes
 with open('data_players_7stats.csv', 'r') as f:
     first_line = f.readline()
 
@@ -15,7 +17,7 @@ for index in range(0,8):
 
 print(column)
 
-#plot distribution over features
+# plot distribution over features
 fig = plt.figure("Data distribution")
 for index in range(0,len(X[0])):
     plt.subplot(3,3,1+index)
@@ -39,4 +41,5 @@ plt.suptitle('Data vizualisation')
 
 plt.show(block=False)
 
+# au cas où on veut corriger, utiliser where pour récupérer les indices
 # odd = np.where(X[:,6] > 10)[0]
