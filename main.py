@@ -15,10 +15,12 @@ from meanShift import *
 # column contient les noms des colonnes
 X, names, column = loadData('data/data_players_7stats.csv')
 
-computeMeanShift(X)
 
 # Compute Mahalanobis distance
 sp.spatial.distance.mahalanobis(X[0], X[1], np.linalg.inv(np.cov(np.transpose(X))))
+
+# Compute # de clusters selon MeanShift
+computeMeanShift(X)
 
 # N'a pas de sens pour l'instant
 # plotMeanShift(X)
