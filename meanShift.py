@@ -1,22 +1,21 @@
 import numpy as np
 from sklearn.cluster import MeanShift, estimate_bandwidth
-def computeMeanShift(X):
+def computeMeanShift(X,q):
     # Compute clustering with MeanShift
     # The MeanShift bandwidth can be automatically detected using
-    bandwidth = estimate_bandwidth(X, quantile=0.2, n_samples=X.shape[0])
+    bandwidth = estimate_bandwidth(X, quantile = q, n_samples=X.shape[0])
     ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
     ms.fit(X)
     labels = ms.labels_
     cluster_centers = ms.cluster_centers_
-
     labels_unique = np.unique(labels)
     n_clusters_ = len(labels_unique)
     print("number of estimated clusters : %d" % n_clusters_)
 
-def plotMeanShift(X):
+def plotMeanShift(X,q):
     # Compute clustering with MeanShift
     # The following bandwidth can be automatically detected using
-    bandwidth = estimate_bandwidth(X, quantile=0.2, n_samples=X.shape[0])
+    bandwidth = estimate_bandwidth(X, q, n_samples=X.shape[0])
 
     ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
     ms.fit(X)
