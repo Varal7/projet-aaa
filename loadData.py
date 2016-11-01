@@ -34,4 +34,8 @@ def plotData(X, column):
         plt.plot(range(0, 476), X[:, index], 'ro')
         plt.ylabel(column[index])
         plt.xlabel('player_id')
+    plt.figure('Boxplot')
+    plt.suptitle('Boxplot')
+    plt.boxplot(X)
+    plt.xticks([1,2,3,4,5,6,7],column)
     plt.show()

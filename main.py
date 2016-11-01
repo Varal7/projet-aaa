@@ -27,7 +27,7 @@ computeMeanShift(X,quantile)
 # plotMeanShift(X,quantile)
 
 # Plotting data and data distribution
-# plotData(X, column)
+plotData(X, column)
 
 # Normalisation
 # X = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
