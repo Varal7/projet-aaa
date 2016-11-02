@@ -6,13 +6,13 @@
 import mapper
 import numpy as np
 import matplotlib.pyplot as plt
+from loadData import *
 from sklearn import decomposition
 
 '''
     Step 1: Input
 '''
-filename = 'data/data_players_7stats_comma.csv'
-data0 = np.loadtxt(str(filename), delimiter=',', dtype=np.float)
+X, names, column = loadData('data/data_players_7stats.csv')
 # Preprocessing
 point_labels = None
 mask = None
@@ -21,7 +21,8 @@ kNN_distance  = mapper.filters.kNN_distance
 crop = mapper.crop
 # Custom preprocessing code
 # TODO: CUSTOM CODE
-data = data0[:, range(1, 7)]
+data = X
+# data = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
 # End custom preprocessing code
 data, point_labels = mapper.mask_data(data, mask, point_labels)
 '''
@@ -73,7 +74,7 @@ mapper_output = mapper.mapper(data, f,
 cutoff = mapper.cutoff.first_gap(gap=0.1)
 mapper_output.cutoff(cutoff, f, cover=cover, simple=False)
 mapper_output.draw_scale_graph()
-plt.savefig('scale_graph.pdf')
+plt.savefig('scale_graph.png')
 '''
     Step 5: Display parameters
 '''
@@ -93,5 +94,5 @@ minsizes = []
 mapper_output.draw_2D(minsizes=minsizes,
     node_color=node_color,
     node_color_scheme=name)
-plt.savefig('mapper_output.pdf')
+plt.savefig('mapper_output.png')
 plt.show()
