@@ -31,10 +31,10 @@ X = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
 
 
 # Perform PCA
-# (Y, perc, comp) = pca(X,2)
+(Y, perc, comp) = pca(X,1)
 
 # Plot percentage of the feature space according to eigenvalues
-# plotlPCA(X)
+# plotPCA(X)
 
 # Plot Correlation Circle
 plotCorrelationCircle(X, column, names)

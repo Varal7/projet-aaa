@@ -7,7 +7,6 @@ def pca(data,k):
     # Performs principal components analysis (PCA) on the n-by-p data matrix A (data)
     # Rows of A correspond to observations (wines), columns to variables.
     ## TODO: Implement PCA
-
     M = mean(data,0) # compute the mean
     C = data - M # subtract the mean (along columns)
     W = dot(transpose(C),C) # compute covariance matrix

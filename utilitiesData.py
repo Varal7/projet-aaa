@@ -69,8 +69,9 @@ def plotCorrelationCircle(X, column, names):
     	ind = event.ind
     	axes.annotate(names[ind], (Y[ind, 0], Y[ind, 1]))
     	plt.draw()
-    fig, ax1 = plt.subplots(figsize = (14, 6))
+    fig, ax1 = plt.subplots()
     ax1.scatter(Y[:, 0], Y[:, 1], picker = True)
+    ax1.add_artist(plt.Circle((0, 0), 1, color='r', fill = False))
     # Etiquettage des points
     # for label, x, y in zip([item[0] for item in names], Y[:, 0], Y[:, 1]):
     #     plt.annotate(
@@ -81,7 +82,7 @@ def plotCorrelationCircle(X, column, names):
     fig.canvas.mpl_connect('pick_event', partial(onpick, axes = ax1, Y = Y))
     for i,v in enumerate(column):
     	ax1.plot([0, scr[i,0]], [0, scr[i,1]], 'r-', linewidth=2,)
-    	plt.text(scr[i,0]* 1.15, scr[i,1] * 1.15, v, color='r', ha='center', va='center')
+    	plt.text(scr[i,0]* 1.00, scr[i,1] * 1.00, v, color='r', ha='center', va='center')
     ax1.axhline(y=0, color='k')
     ax1.axvline(x=0, color='k')
     ax1.xaxis.grid(True)
