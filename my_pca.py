@@ -45,7 +45,7 @@ plt.ylabel('percentages')
 plt.show()
 
 (Y,perc,comp)=pca(X,2)
-print("variance:"+str(perc))
+print("variance : "+str(perc))
 # Calculate how important each feature was
 scr = np.dot(np.linalg.inv(np.diag(np.std(X,axis=0))),comp)
 # Scale results to match when we plot them
@@ -62,6 +62,7 @@ def onpick(event,axes,Y):
 	plt.draw()
 
 ###############
+
 fig, ax1 = plt.subplots(figsize=(14,6))
 ax1.scatter(Y[:, 0], Y[:, 1],picker=True)
 fig.canvas.mpl_connect('pick_event', partial(onpick, axes=ax1, Y=Y))
