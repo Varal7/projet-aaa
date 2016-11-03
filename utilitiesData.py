@@ -53,12 +53,12 @@ def plotPCA(X):
     plt.plot(range(1,10),perc_,'b-',label="eigen percentage pca maison")
     plt.legend()
     plt.xlabel('number of components')
-    plt.ylabel('percentages')
+    plt.ylabel('percentages of variance explained')
     plt.show()
 
-def plotCorrelationCircle(X, column):
+def plotCorrelationCircle(X, column, names):
     (Y, perc, comp) = pca(X,2)
-    print("variance : " + str(perc))
+    print("variance explained : " + str(perc))
     # Calculate how important each feature was
     scr = np.dot(np.linalg.inv(np.diag(np.std(X, axis=0))),comp)
     # Scale results to match when we plot them
@@ -69,8 +69,15 @@ def plotCorrelationCircle(X, column):
     	ind = event.ind
     	axes.annotate(names[ind], (Y[ind, 0], Y[ind, 1]))
     	plt.draw()
-    fig, ax1 = plt.subplots(figsize=(14, 6))
-    ax1.scatter(Y[:, 0], Y[:, 1],picker = True)
+    fig, ax1 = plt.subplots(figsize = (14, 6))
+    ax1.scatter(Y[:, 0], Y[:, 1], picker = True)
+    # Etiquettage des points
+    # for label, x, y in zip([item[0] for item in names], Y[:, 0], Y[:, 1]):
+    #     plt.annotate(
+    #         label,
+    #         xy = (x, y), xytext = (-1, 1),
+    #         textcoords = 'offset points', ha = 'right', va = 'bottom',
+    #         arrowprops = dict(arrowstyle = '-', connectionstyle = 'arc3,rad=0'))
     fig.canvas.mpl_connect('pick_event', partial(onpick, axes = ax1, Y = Y))
     for i,v in enumerate(column):
     	ax1.plot([0, scr[i,0]], [0, scr[i,1]], 'r-', linewidth=2,)

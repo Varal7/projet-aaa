@@ -8,7 +8,7 @@ from isomap import *
 # from euclideanDistance import euclideanDistance
 # from affinityPropagation import *
 # from meanShift import *
-# from sklearn import decomposition
+from sklearn import decomposition
 # from pcaImp import pca
 
 #
@@ -34,10 +34,10 @@ X = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
 # (Y, perc, comp) = pca(X,2)
 
 # Plot percentage of the feature space according to eigenvalues
-plotPCA(X)
+# plotlPCA(X)
 
 # Plot Correlation Circle
-plotCorrelationCircle(X,column)
+plotCorrelationCircle(X, column, names)
 
 # How to compute Mahalanobis distance
 # sp.spatial.distance.mahalanobis(X[0], X[1], np.linalg.inv(np.cov(np.transpose(X))))
