@@ -37,7 +37,7 @@ X = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
 # plt.show()
 
 silhouettes = []
-range_n_clusters = range(3, 4)
+range_n_clusters = range(3, 19)
 for n_clusters in range_n_clusters:
     silhouettes.append(clustering_analysis(X, n_clusters))
 
