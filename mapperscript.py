@@ -36,10 +36,13 @@ if intrinsic_metric:
         if metric != 'Euclidean':
             raise ValueError('Not implemented')
     data = mapper.metric.intrinsic_metric(data, k=1, eps=1.0)
+
 is_vector_data = data.ndim != 1
+
 '''
     Step 3: Filter function
 '''
+
 if is_vector_data:
     metricpar = {'metric': 'euclidean'}
     f = mapper.filters.zero_filter(data,
@@ -48,29 +51,35 @@ if is_vector_data:
 else:
     f = mapper.filters.zero_filter(data,
         )
+
 # Filter transformation
+
 mask = None
 crop = mapper.crop
 # Custom filter transformation
 # TODO: CUSTOM CODE
-pca = pca = decomposition.PCA(2)
+
+pca = decomposition.PCA(2)
 pca.fit(data)
-filtration_axis = pca.components_[0]
-f = np.dot(data, filtration_axis)
+filtration_axis = pca.components_
+f = np.dot(data, np.transpose(filtration_axis))
+
 # End custom filter transformation
 '''
     Step 4: Mapper parameters
 '''
-cover = mapper.cover.cube_cover_primitive(intervals=30, overlap=25.0)
+cover = mapper.cover.cube_cover_primitive(intervals=60, overlap=25.0)
 cluster = mapper.single_linkage()
 if not is_vector_data:
     metricpar = {}
+
 mapper_output = mapper.mapper(data, f,
     cover=cover,
     cluster=cluster,
     point_labels=point_labels,
     cutoff=None,
-    metricpar=metricpar)
+    metricpar=metricpar, verbose = True)
+
 cutoff = mapper.cutoff.first_gap(gap=0.1)
 mapper_output.cutoff(cutoff, f, cover=cover, simple=False)
 mapper_output.draw_scale_graph()
