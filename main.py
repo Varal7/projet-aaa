@@ -8,6 +8,8 @@ from isomap import *
 # from euclideanDistance import euclideanDistance
 # from affinityPropagation import *
 # from meanShift import *
+from clustering_study import *
+from plot_kmeans_silhouette_analysis import *
 from sklearn import decomposition
 # from pcaImp import pca
 
@@ -26,7 +28,22 @@ X, names, column = loadData('data/data_players_7stats.csv')
 
 X = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
 
+# inertias = []
+# for k in range(2, 40):
+#     inertias.append(res_kmeans(X, k = k, plot = False, seed_tries = 10))
+#     print(k)
+#
+# plt.plot((inertias), 'r-')
+# plt.show()
 
+silhouettes = []
+range_n_clusters = range(3, 4)
+for n_clusters in range_n_clusters:
+    silhouettes.append(clustering_analysis(X, n_clusters))
+
+plt.figure()
+plt.plot(silhouettes, 'r-')
+plt.show()
 
 
 
@@ -37,7 +54,7 @@ X = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
 # plotPCA(X)
 
 # Plot Correlation Circle
-plotCorrelationCircle(X, column, names)
+# plotCorrelationCircle(X, column, names)
 
 # How to compute Mahalanobis distance
 # sp.spatial.distance.mahalanobis(X[0], X[1], np.linalg.inv(np.cov(np.transpose(X))))
@@ -52,7 +69,3 @@ plotCorrelationCircle(X, column, names)
 
 # Plotting data, data distribution, boxplots
 # plotData(X, column)
-
-
-# ploting Isomap
-# isomap(X, 3, True)
