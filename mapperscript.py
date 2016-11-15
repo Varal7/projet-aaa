@@ -6,13 +6,14 @@
 import mapper
 import numpy as np
 import matplotlib.pyplot as plt
-from loadData import *
+from utilitiesData import *
 from sklearn import decomposition
 
 '''
     Step 1: Input
 '''
 X, names, column = loadData('data/data_players_7stats.csv')
+
 # Preprocessing
 point_labels = None
 mask = None
@@ -22,6 +23,8 @@ crop = mapper.crop
 # Custom preprocessing code
 # TODO: CUSTOM CODE
 data = X
+data = np.delete(X, 4, axis=1)
+print(data[0, :])
 # data = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
 # End custom preprocessing code
 data, point_labels = mapper.mask_data(data, mask, point_labels)
@@ -61,7 +64,7 @@ crop = mapper.crop
 
 pca = decomposition.PCA(2)
 pca.fit(data)
-filtration_axis = pca.components_
+filtration_axis = pca.components_[0]
 f = np.dot(data, np.transpose(filtration_axis))
 
 # End custom filter transformation

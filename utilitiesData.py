@@ -6,6 +6,9 @@ import scipy as sp
 import matplotlib.pyplot as plt
 from pcaImp import pca
 from functools import partial
+from mpl_toolkits.mplot3d import Axes3D
+from mpl_toolkits.mplot3d import proj3d
+from pandas.tools.plotting import scatter_matrix
 
 
 def loadData(s):
@@ -19,6 +22,23 @@ def loadData(s):
     for index in range(0, 8):
         column.pop(0)
     return X, names, column
+
+def plotPCA3D(X, column, names):
+    (Y, perc, comp) = pca(X, 3)
+
+    # Code sébastien chakra
+    fig = plt.figure(figsize=(8,8))
+    ax = fig.add_subplot(111, projection='3d')
+    plt.rcParams['legend.fontsize'] = 10
+    ax.plot(Y[:, 0], Y[:, 1], Y[:, 2], 'o', markersize=8, color='blue', alpha=0.5, label='x')
+    # ax.plot(class2_sample[0,:], class2_sample[1,:], class2_sample[2,:], '^', markersize=8, alpha=0.5, color='red', label='class2')
+
+    # plt.title('Samples for class 1 and class 2')
+    ax.legend(loc='upper right')
+    plt.xlabel('1st Principal Component')
+    plt.ylabel('2nd Principal Component')
+
+    plt.show()
 
 
 def plotData(X, column):
@@ -57,7 +77,7 @@ def plotPCA(X):
     plt.show()
 
 def plotCorrelationCircle(X, column, names):
-    (Y, perc, comp) = pca(X,2)
+    (Y, perc, comp) = pca(X,3)
     print("variance explained : " + str(perc))
     # Calculate how important each feature was
     scr = np.dot(np.linalg.inv(np.diag(np.std(X, axis=0))),comp)
