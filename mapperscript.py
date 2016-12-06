@@ -23,9 +23,9 @@ crop = mapper.crop
 # Custom preprocessing code
 # TODO: CUSTOM CODE
 data = X
-data = np.delete(X, 4, axis=1)
+# data = np.delete(X, 4, axis=1)
 print(data[0, :])
-# data = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
+data = X / np.std(X, axis = 0)
 # End custom preprocessing code
 data, point_labels = mapper.mask_data(data, mask, point_labels)
 '''
@@ -62,16 +62,17 @@ crop = mapper.crop
 # Custom filter transformation
 # TODO: CUSTOM CODE
 
-pca = decomposition.PCA(2)
+pca = decomposition.PCA(1)
 pca.fit(data)
-filtration_axis = pca.components_[0]
-f = np.dot(data, np.transpose(filtration_axis))
-
+filtration_axis = pca.components_
+# f = np.dot(data, np.transpose(filtration_axis))
+f = pca.transform(data)
 # End custom filter transformation
+
 '''
     Step 4: Mapper parameters
 '''
-cover = mapper.cover.cube_cover_primitive(intervals=60, overlap=25.0)
+cover = mapper.cover.cube_cover_primitive(intervals=20, overlap=50.0)
 cluster = mapper.single_linkage()
 if not is_vector_data:
     metricpar = {}
