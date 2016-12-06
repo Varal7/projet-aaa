@@ -16,22 +16,17 @@ def plotMeanShift(X,q):
     # Compute clustering with MeanShift
     # The following bandwidth can be automatically detected using
     bandwidth = estimate_bandwidth(X, q, n_samples=X.shape[0])
-
     ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
     ms.fit(X)
     labels = ms.labels_
     cluster_centers = ms.cluster_centers_
-
     labels_unique = np.unique(labels)
     n_clusters_ = len(labels_unique)
-
     # Plot results
     import matplotlib.pyplot as plt
     from itertools import cycle
-
     plt.figure(1)
     plt.clf()
-
     colors = cycle('bgrcmykbgrcmykbgrcmykbgrcmyk')
     for k, col in zip(range(n_clusters_), colors):
         my_members = labels == k

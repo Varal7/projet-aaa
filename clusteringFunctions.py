@@ -73,9 +73,9 @@ def singlelinkage_clustering(X, n_clusters = 2):
         # seed of 10 for reproducibility.
         clusterer = AgglomerativeClustering(n_clusters = n_clusters, linkage = "complete")
 
-        # cluster_labels = clusterer.fit_predict(X)
-        cluster_labels = clusterer.fit(X)
-        cluster_labels = cluster_labels.labels_
+        cluster_labels = clusterer.fit_predict(X)
+        # cluster_labels = clusterer.fit(X)
+        # cluster_labels = cluster_labels.labels_
         return cluster_labels
 
 def clustering_analysis(X, cluster_labels, plot = False):
