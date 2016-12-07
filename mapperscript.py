@@ -60,7 +60,7 @@ crop = mapper.crop
 # Custom filter transformation
 # TODO: CUSTOM CODE
 
-pca = decomposition.PCA(1)
+pca = decomposition.PCA(2)
 pca.fit(data)
 filtration_axis = pca.components_
 
