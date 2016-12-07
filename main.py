@@ -27,15 +27,15 @@ X, names, column = loadData('data/data_players_7stats.csv')
 # DATA NORMALISATION
 #
 
-# X = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
+X = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
 
-# inertias = []
-# for k in range(2, 40):
-#     inertias.append(res_kmeans(X, k = k, plot = False, seed_tries = 10))
-#     print(k)
-#
-# plt.plot((inertias), 'r-')
-# plt.show()
+inertias = []
+for k in range(2, 40):
+    inertias.append(res_kmeans(X, k = k, plot = False, seed_tries = 10))
+    print(k)
+
+plt.plot((inertias), 'r-')
+plt.show()
 
 # Algebrical normalization
 corr = np.corrcoef(X.T)
@@ -73,7 +73,7 @@ def clustering_study():
 
 
 
-# clustering_analysis(X, knn_clustering(X, 5))
+clustering_analysis(X, knn_clustering(X, 5), plot = True)
 
 
 

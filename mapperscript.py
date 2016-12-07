@@ -49,11 +49,9 @@ is_vector_data = data.ndim != 1
 if is_vector_data:
     metricpar = {'metric': 'euclidean'}
     f = mapper.filters.zero_filter(data,
-        metricpar=metricpar,
-        )
+        metricpar=metricpar)
 else:
-    f = mapper.filters.zero_filter(data,
-        )
+    f = mapper.filters.zero_filter(data)
 
 # Filter transformation
 
@@ -64,14 +62,16 @@ crop = mapper.crop
 
 pca = decomposition.PCA(2)
 pca.fit(data)
-filtration_axis = pca.components_[0]
+filtration_axis = pca.components_
 f = np.dot(data, np.transpose(filtration_axis))
 
 # End custom filter transformation
 '''
     Step 4: Mapper parameters
 '''
-cover = mapper.cover.cube_cover_primitive(intervals=60, overlap=25.0)
+
+cover = mapper.cover.cube_cover_primitive(intervals=20, overlap=50.0)
+# cover = mapper.cover.balanced_cover_1d(intervals=20, overlap=50.0)
 cluster = mapper.single_linkage()
 if not is_vector_data:
     metricpar = {}
@@ -85,26 +85,71 @@ mapper_output = mapper.mapper(data, f,
 
 cutoff = mapper.cutoff.first_gap(gap=0.1)
 mapper_output.cutoff(cutoff, f, cover=cover, simple=False)
-mapper_output.draw_scale_graph()
-plt.savefig('scale_graph.png')
-'''
-    Step 5: Display parameters
-'''
-# Node coloring
+# TODO Jusque la ca marche
 
-nodes = mapper_output.nodes
-node_color = None
-point_color = None
-name = 'custom scheme'
-# Custom node coloring
-# TODO: CUSTOM CODE
-coloring_axis = pca.components_[1]
-point_color = np.dot(data, coloring_axis)
-# End custom node coloring
-node_color = mapper_output.postprocess_node_color(node_color, point_color, point_labels)
-minsizes = []
-mapper_output.draw_2D(minsizes=minsizes,
-    node_color=node_color,
-    node_color_scheme=name)
-plt.savefig('mapper_output.png')
+
+# mapper_output.simplices[d][t1, ..., td] -> = 1 iff exists simplicial complex of order d between t1, ..., td
+# mapper_output.nodes == node((index, ), array([num]), value) -> player number 'num' is in node 'index', however wtf is value ?
+
+
+number_nodes = len(mapper_output.nodes)
+nodes_centroid = np.zeros([number_nodes, 2])
+points_per_node = np.zeros(number_nodes)
+
+# computing number of nodes
+number = 0
+for i in range(0, number_nodes):
+    # print(mapper_output.nodes[i].points)
+    points_per_node[i] = len(mapper_output.nodes[i].points)
+    nodes_centroid[i] = np.mean(f[mapper_output.nodes[i].points], axis = 0)
+
+    # mapper_output.nodes[i].level
+    # mapper_output.nodes[i].attribute
+    # mapper_output.nodes[i].points
+
+plt.plot(nodes_centroid[:, 0], nodes_centroid[:, 1], 'ro')
+for i in range(0, number_nodes):
+    plt.annotate(str(int(points_per_node[i])), xy = (nodes_centroid[i, 0], nodes_centroid[i, 1]))
+plt.plot(f[:, 0], f[:, 1], 'g.')
+
+# sticking with dim. 1 for now
+number_simplices = len(mapper_output.simplices[1])
+vertices = []
+
+
+for (n1, n2) in mapper_output.simplices[1]:
+    # print(mapper_output.simplices[1][n1, n2])
+    vertices.append(np.array([nodes_centroid[n1, :], nodes_centroid[n2, :]]))
+    plt.plot([nodes_centroid[n1, 0], nodes_centroid[n2, 0]], [nodes_centroid[n1, 1], nodes_centroid[n2, 1]], 'b')
+
+print(vertices)
+
+
+
 plt.show()
+
+
+
+# mapper_output.draw_scale_graph()
+# plt.savefig('scale_graph.png')
+# '''
+#     Step 5: Display parameters
+# '''
+# # Node coloring
+#
+# nodes = mapper_output.nodes
+# node_color = None
+# point_color = None
+# name = 'custom scheme'
+# # Custom node coloring
+# # TODO: CUSTOM CODE
+# coloring_axis = pca.components_[1]
+# point_color = np.dot(data, coloring_axis)
+# # End custom node coloring
+# node_color = mapper_output.postprocess_node_color(node_color, point_color, point_labels)
+# minsizes = []
+# mapper_output.draw_2D(minsizes=minsizes,
+#     node_color=node_color,
+#     node_color_scheme=name)
+# plt.savefig('mapper_output.png')
+# plt.show()
