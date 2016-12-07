@@ -10,7 +10,6 @@ from mpl_toolkits.mplot3d import Axes3D
 from mpl_toolkits.mplot3d import proj3d
 from pandas.tools.plotting import scatter_matrix
 
-
 def loadData(s):
     X = np.genfromtxt(s, delimiter = ';', skip_header = 1, usecols = range(8, 15))
     # names contient les noms des joueurs et leur équipe
