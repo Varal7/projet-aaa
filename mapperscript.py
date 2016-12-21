@@ -6,8 +6,13 @@
 import mapper
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
 from utilitiesData import *
 from sklearn import decomposition
+from matplotlib.patches import Polygon
+from matplotlib.collections import PatchCollection
+
+
 
 '''
     Step 1: Input
@@ -73,7 +78,7 @@ f = np.dot(data, np.transpose(filtration_axis))
 '''
 
 
-cover = mapper.cover.cube_cover_primitive(intervals=20, overlap=50.0)
+cover = mapper.cover.cube_cover_primitive(intervals=15, overlap=50.0)
 # cover = mapper.cover.balanced_cover_1d(intervals=20, overlap=50.0)
 cluster = mapper.single_linkage()
 if not is_vector_data:
@@ -88,13 +93,16 @@ mapper_output = mapper.mapper(data, f,
 
 cutoff = mapper.cutoff.first_gap(gap=0.1)
 mapper_output.cutoff(cutoff, f, cover=cover, simple=False)
-# TODO Jusque la ca marche
 
+
+
+# TODO Jusque la ca marche
+# CUSTOM GRAPH VISUALIZATION
 
 # mapper_output.simplices[d][t1, ..., td] -> = 1 iff exists simplicial complex of order d between t1, ..., td
 # mapper_output.nodes == node((index, ), array([num]), value) -> player number 'num' is in node 'index', however wtf is value ?
 
-
+fig, ax = plt.subplots()
 number_nodes = len(mapper_output.nodes)
 nodes_centroid = np.zeros([number_nodes, 2])
 points_per_node = np.zeros(number_nodes)
@@ -102,7 +110,6 @@ points_per_node = np.zeros(number_nodes)
 # computing number of nodes
 number = 0
 for i in range(0, number_nodes):
-    # print(mapper_output.nodes[i].points)
     points_per_node[i] = len(mapper_output.nodes[i].points)
     nodes_centroid[i] = np.mean(f[mapper_output.nodes[i].points], axis = 0)
 
@@ -110,24 +117,29 @@ for i in range(0, number_nodes):
     # mapper_output.nodes[i].attribute
     # mapper_output.nodes[i].points
 
-plt.plot(nodes_centroid[:, 0], nodes_centroid[:, 1], 'ro')
-for i in range(0, number_nodes):
-    plt.annotate(str(int(points_per_node[i])), xy = (nodes_centroid[i, 0], nodes_centroid[i, 1]))
-plt.plot(f[:, 0], f[:, 1], 'g.')
+# ploting 0-dim simplices
+ax.plot(nodes_centroid[:, 0], nodes_centroid[:, 1], 'ro')
+# for i in range(0, number_nodes):
+#     plt.annotate(str(int(points_per_node[i])), xy = (nodes_centroid[i, 0], nodes_centroid[i, 1]))
+ax.plot(f[:, 0], f[:, 1], 'g.')
 
-# sticking with dim. 1 for now
-number_simplices = len(mapper_output.simplices[1])
+# ploting 1-dim simplices
 vertices = []
-
-
 for (n1, n2) in mapper_output.simplices[1]:
-    # print(mapper_output.simplices[1][n1, n2])
-    vertices.append(np.array([nodes_centroid[n1, :], nodes_centroid[n2, :]]))
-    plt.plot([nodes_centroid[n1, 0], nodes_centroid[n2, 0]], [nodes_centroid[n1, 1], nodes_centroid[n2, 1]], 'b')
-
-print(vertices)
+    if n1 < n2:
+        vertices.append(np.array([nodes_centroid[n1, :], nodes_centroid[n2, :]]))
+        ax.plot([nodes_centroid[n1, 0], nodes_centroid[n2, 0]], [nodes_centroid[n1, 1], nodes_centroid[n2, 1]], 'b')
 
 
+# ploting 2-dim simplices
+patches = []
+for (n1, n2, n3) in mapper_output.simplices[2]:
+    if n1 < n2 & n2 < n3:
+        polygon = Polygon(nodes_centroid[[n1, n2, n3], :])
+        patches.append(polygon)
+
+p = PatchCollection(patches, cmap=matplotlib.cm.jet, alpha=0.4)
+ax.add_collection(p)
 
 plt.show()
 
