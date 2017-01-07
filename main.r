@@ -9,10 +9,9 @@ library(networkD3)
 
 #Read data
 df <- read.csv("data/data_players_7stats_w_position.csv", header=TRUE)
-nba.positions <- df[,9]
-nba.gen_positions <- df[,10]
-nba.names <- df[,1]
-nba.st <- df[,2:8]
+nba.positions <- df[,8]
+nba.gen_positions <- df[,9]
+nba.st <- df[,1:7]
 
 use_gen_positions <- FALSE
 
@@ -45,8 +44,6 @@ if (use_gen_positions) {
     legend(x=0, y=6, levels(nba.positions),pch=21,
            col=colors, pt.cex=2, cex=.8, bty="n", ncol=1)
 }
-#Eventaully showing names
-#text(nba.pca$points[1,],nba.pca$points[2,],labels=df[,1], pos =3 )
 
 #Now apply Mapper
 
@@ -58,7 +55,7 @@ nba.dist = dist(nba.st)
 
 nba.mapper <- mapper(dist_object = nba.dist,
            filter_values = list(nba.pca$points[1,],nba.pca$points[2,]),
-           num_intervals = c(20,20),
+           num_intervals = c(30,30),
            percent_overlap = 50,
            num_bins_when_clustering = 5)
 
@@ -74,4 +71,4 @@ forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
             Source = "Linksource", Target = "Linktarget",
             Value = "Linkvalue", NodeID = "Nodename",
             Group = "Nodegroup", opacity = 1,
-            linkDistance = 10, charge = -400)
+            linkDistance = 10, charge = -400, zoom=TRUE)
