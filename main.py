@@ -35,7 +35,6 @@ X = (X - np.mean(X, axis = 0)) / np.std(X, axis = 0)
 
 inertias = []
 for k in range(2, 40):
-<<<<<<< HEAD
     inertias.append(res_kmeans(X, k = k, plot = False, seed_tries = 10))
     print(k)
 
