@@ -3,8 +3,9 @@
 
 library(TDAmapper)
 library(ggplot2)
-library(igraph
+library(igraph)
 library(RColorBrewer)
+library(networkD3)
 
 #Read data
 df <- read.csv("data/data_players_7stats_w_position.csv", header=TRUE)
@@ -46,3 +47,31 @@ if (use_gen_positions) {
 }
 #Eventaully showing names
 #text(nba.pca$points[1,],nba.pca$points[2,],labels=df[,1], pos =3 )
+
+#Now apply Mapper
+
+#Center and normalize data
+nba.st <- scale(nba.st)
+
+#Compute Variance Normalized Euclidean distance
+nba.dist = dist(nba.st)
+
+nba.mapper <- mapper(dist_object = nba.dist,
+           filter_values = list(nba.pca$points[1,],nba.pca$points[2,]),
+           num_intervals = c(20,20),
+           percent_overlap = 50,
+           num_bins_when_clustering = 5)
+
+nba.graph <- graph.adjacency(nba.mapper$adjacency, mode="undirected")
+
+#Display graph
+plot(nba.graph)
+
+#Display interactive graph
+MapperLinks <- mapperEdges(nba.mapper)
+MapperNodes <- mapperVertices(nba.mapper, 1:length(nba.pca$points[1,]) )
+forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
+            Source = "Linksource", Target = "Linktarget",
+            Value = "Linkvalue", NodeID = "Nodename",
+            Group = "Nodegroup", opacity = 1,
+            linkDistance = 10, charge = -400)
