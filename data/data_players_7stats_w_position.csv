@@ -1,477 +1,477 @@
-Name,Reb,Ast ,TO ,Stl ,Blk ,PF ,PPG ,Position
- Aaron Brooks,1.5 ,2.6 ,1.2 ,0.4 ,0.1 ,1.9 ,7.1 ,PG
- Aaron Gordon,6.5 ,1.6 ,0.8 ,0.8 ,0.7 ,2.0 ,9.2 ,F
- Aaron Harrison,0.7 ,0.1 ,0.2 ,0.3 ,0.0 ,0.5 ,0.9 ,PG
- Adreian Payne,2.1 ,0.6 ,0.7 ,0.3 ,0.2 ,1.5 ,2.5 ,PF
- Al Horford,7.3 ,3.2 ,1.3 ,0.8 ,1.5 ,2.0 ,15.2 ,FC
- Al Jefferson,6.4 ,1.5 ,0.7 ,0.6 ,0.9 ,2.5 ,12.0 ,FC
- Al-Farouq Aminu,6.1 ,1.7 ,1.5 ,0.9 ,0.6 ,2.1 ,10.2 ,F
- Alan Anderson,2.1 ,1.1 ,0.2 ,0.3 ,0.1 ,1.9 ,5.0 ,GF
- Alan Williams,3.8 ,0.5 ,0.6 ,0.4 ,0.5 ,1.5 ,2.9 ,PF
- Alec Burks,3.5 ,2.0 ,1.6 ,0.6 ,0.1 ,2.3 ,13.3 ,G
- Alex Len,7.6 ,1.2 ,1.9 ,0.5 ,0.8 ,2.9 ,9.0 ,FC
- Alex Stepheson,3.5 ,0.3 ,0.0 ,0.1 ,0.6 ,1.5 ,2.8 ,SF
- Alexis Ajinca,4.6 ,0.5 ,0.9 ,0.3 ,0.6 ,2.3 ,6.0 ,FC
- Allen Crabbe,2.7 ,1.2 ,0.8 ,0.8 ,0.2 ,2.4 ,10.3 ,G
- Alonzo Gee,3.4 ,1.0 ,0.8 ,0.9 ,0.2 ,2.3 ,4.5 ,GF
- Amar'e Stoudemire,4.3 ,0.5 ,0.9 ,0.4 ,0.8 ,1.8 ,5.8 ,FC
- Amir Johnson,6.4 ,1.7 ,1.2 ,0.7 ,1.1 ,2.7 ,7.3 ,FC
- Anderson Varejao,2.7 ,0.7 ,0.4 ,0.3 ,0.2 ,1.3 ,2.6 ,FC
- Andre Drummond,14.8 ,0.8 ,1.9 ,1.5 ,1.4 ,3.0 ,16.2 ,FC
- Andre Iguodala,4.0 ,3.4 ,1.2 ,1.1 ,0.3 ,1.6 ,7.0 ,GF
- Andre Miller,1.3 ,2.2 ,0.9 ,0.4 ,0.0 ,1.2 ,3.7 ,G
- Andre Roberson,3.6 ,0.7 ,0.5 ,0.8 ,0.6 ,1.9 ,4.8 ,GF
- Andrea Bargnani,2.1 ,0.4 ,0.6 ,0.1 ,0.2 ,1.3 ,6.6 ,FC
- Andrew Bogut,7.0 ,2.3 ,1.2 ,0.5 ,1.6 ,3.2 ,5.4 ,C
- Andrew Goudelock,0.3 ,0.5 ,0.9 ,0.8 ,0.3 ,0.5 ,2.8 ,G
- Andrew Nicholson,3.6 ,0.4 ,0.7 ,0.2 ,0.4 ,1.2 ,6.9 ,PF
- Andrew Wiggins,3.6 ,2.0 ,2.2 ,1.0 ,0.6 ,2.0 ,20.7 ,GF
- Anthony Bennett,1.2 ,0.0 ,0.2 ,0.3 ,0.0 ,0.4 ,1.5 ,F
- Anthony Brown,2.4 ,0.7 ,0.5 ,0.5 ,0.2 ,1.2 ,4.0 ,SF
- Anthony Davis,10.3 ,1.9 ,2.0 ,1.3 ,2.0 ,2.4 ,24.3 ,FC
- Anthony Morrow,0.9 ,0.4 ,0.3 ,0.3 ,0.1 ,0.9 ,5.6 ,GF
- Anthony Tolliver,3.2 ,0.7 ,0.4 ,0.4 ,0.2 ,1.2 ,5.3 ,F
- Archie Goodwin,2.5 ,2.1 ,1.8 ,0.5 ,0.2 ,1.5 ,8.9 ,G
- Aron Baynes,4.7 ,0.6 ,0.8 ,0.3 ,0.6 ,1.9 ,6.3 ,C
- Arron Afflalo,3.7 ,2.0 ,1.2 ,0.4 ,0.1 ,2.0 ,12.8 ,GF
- Austin Rivers,1.9 ,1.5 ,0.9 ,0.7 ,0.1 ,2.0 ,8.9 ,G
- Avery Bradley,2.9 ,2.1 ,1.4 ,1.5 ,0.3 ,2.2 ,15.2 ,G
- Axel Toupane,1.5 ,0.7 ,0.3 ,0.3 ,0.3 ,1.9 ,3.6 ,GF
- Ben McLemore,2.2 ,1.2 ,1.5 ,0.8 ,0.1 ,2.1 ,7.8 ,SG
- Beno Udrih,1.6 ,2.6 ,1.2 ,0.3 ,0.0 ,1.2 ,4.7 ,PG
- Bismack Biyombo,8.0 ,0.4 ,0.9 ,0.2 ,1.6 ,2.7 ,5.5 ,FC
- Blake Griffin,8.4 ,4.9 ,2.4 ,0.8 ,0.5 ,2.7 ,21.4 ,FC
- Boban Marjanovic,3.6 ,0.4 ,0.5 ,0.2 ,0.4 ,1.0 ,5.5 ,C
- Bobby Portis,5.4 ,0.8 ,0.9 ,0.4 ,0.4 ,1.6 ,7.0 ,FC
- Bojan Bogdanovic,3.2 ,1.3 ,1.5 ,0.4 ,0.1 ,1.5 ,11.2 ,GF
- Boris Diaw,3.1 ,2.3 ,1.3 ,0.3 ,0.3 ,1.3 ,6.4 ,FC
- Bradley Beal,3.4 ,2.9 ,2.0 ,1.0 ,0.2 ,2.1 ,17.4 ,SG
- Brandan Wright,3.6 ,0.5 ,0.8 ,0.4 ,1.3 ,1.8 ,6.9 ,FC
- Branden Dawson,0.7 ,0.0 ,0.0 ,0.0 ,0.2 ,0.3 ,0.8 ,F
- Brandon Bass,4.3 ,1.1 ,0.6 ,0.5 ,0.8 ,1.9 ,7.2 ,FC
- Brandon Jennings,2.0 ,3.5 ,1.2 ,0.6 ,0.1 ,1.2 ,6.9 ,PG
- Brandon Knight,3.9 ,5.1 ,3.4 ,1.2 ,0.4 ,2.4 ,19.6 ,G
- Brandon Rush,2.5 ,0.8 ,0.5 ,0.3 ,0.3 ,0.8 ,4.2 ,GF
- Brian Roberts,0.8 ,1.1 ,0.5 ,0.2 ,0.0 ,0.7 ,4.0 ,G
- Briante Weber,3.6 ,3.0 ,1.3 ,1.3 ,0.4 ,1.7 ,4.4 ,PG
- Brook Lopez,7.8 ,2.0 ,2.4 ,0.8 ,1.7 ,2.9 ,20.6 ,C
- Bruno Caboclo,0.3 ,0.2 ,0.7 ,0.3 ,0.2 ,0.3 ,0.5 ,SF
- Bryce Cotton,0.0 ,0.4 ,0.6 ,0.4 ,0.0 ,0.3 ,1.0 ,PG
- Bryce Dejean-Jones,3.4 ,1.1 ,0.8 ,0.7 ,0.1 ,1.2 ,5.6 ,G
- C.J. McCollum,3.2 ,4.3 ,2.5 ,1.2 ,0.3 ,2.3 ,20.8 ,G
- C.J. Miles,2.7 ,1.0 ,1.1 ,0.8 ,0.5 ,2.2 ,11.8 ,GF
- C.J. Watson,2.0 ,2.7 ,0.8 ,0.6 ,0.2 ,1.5 ,4.3 ,PG
- C.J. Wilcox,0.5 ,0.4 ,0.1 ,0.4 ,0.1 ,0.7 ,3.0 ,SG
- Cameron Bairstow,1.6 ,0.3 ,0.2 ,0.1 ,0.2 ,1.1 ,1.9 ,FC
- Cameron Payne,1.5 ,1.9 ,0.8 ,0.6 ,0.1 ,1.4 ,5.0 ,PG
- Carl Landry,4.1 ,0.9 ,0.6 ,0.3 ,0.3 ,1.9 ,9.8 ,F
- Carmelo Anthony,7.7 ,4.2 ,2.4 ,0.9 ,0.5 ,2.5 ,21.8 ,F
- Caron Butler,1.3 ,0.6 ,0.2 ,0.5 ,0.1 ,1.1 ,3.7 ,SF
- Chandler Parsons,4.7 ,2.8 ,1.6 ,0.8 ,0.3 ,1.9 ,13.7 ,F
- Channing Frye,3.3 ,1.0 ,0.6 ,0.4 ,0.4 ,1.8 ,6.0 ,FC
- Charlie Villanueva,2.5 ,0.4 ,0.5 ,0.3 ,0.2 ,1.1 ,5.1 ,PF
- Chase Budinger,2.3 ,1.0 ,0.7 ,0.5 ,0.2 ,0.9 ,4.1 ,GF
- Chris Andersen,3.6 ,0.4 ,0.3 ,0.6 ,0.5 ,1.1 ,3.9 ,FC
- Chris Bosh,7.4 ,2.4 ,1.5 ,0.7 ,0.6 ,1.9 ,19.1 ,FC
- Chris Copeland,0.4 ,0.5 ,0.3 ,0.1 ,0.0 ,0.7 ,2.1 ,F
- Chris Johnson,1.9 ,0.6 ,0.6 ,0.5 ,0.3 ,1.4 ,2.9 ,GF
- Chris Kaman,1.5 ,0.7 ,0.5 ,0.1 ,0.1 ,0.9 ,2.8 ,FC
- Chris McCullough,2.8 ,0.4 ,0.6 ,1.2 ,0.5 ,1.6 ,4.7 ,PF
- Chris Paul,4.2 ,10.0 ,2.6 ,2.1 ,0.2 ,2.5 ,19.5 ,PG
- Christian Wood,2.2 ,0.2 ,0.1 ,0.3 ,0.4 ,0.6 ,3.6 ,FC
- Chuck Hayes,4.0 ,1.0 ,1.5 ,0.0 ,0.0 ,3.0 ,2.0 ,FC
- Cleanthony Early,1.5 ,0.4 ,0.5 ,0.1 ,0.2 ,0.9 ,1.8 ,SF
- Cliff Alexander,0.8 ,0.0 ,0.1 ,0.1 ,0.3 ,0.1 ,1.3 ,PF
- Clint Capela,6.4 ,0.6 ,0.8 ,0.8 ,1.2 ,2.5 ,7.0 ,FC
- Cody Zeller,6.2 ,1.0 ,0.9 ,0.8 ,0.9 ,2.8 ,8.7 ,FC
- Cole Aldrich,4.8 ,0.8 ,1.1 ,0.8 ,1.1 ,2.3 ,5.5 ,C
- Corey Brewer,2.4 ,1.3 ,1.0 ,1.0 ,0.2 ,2.0 ,7.2 ,GF
- Cory Jefferson,2.0 ,0.0 ,0.0 ,0.0 ,0.1 ,1.0 ,2.8 ,PF
- Cory Joseph,2.6 ,3.1 ,1.3 ,0.8 ,0.3 ,1.6 ,8.5 ,PG
- Coty Clarke,0.3 ,0.0 ,0.3 ,0.0 ,0.0 ,0.0 ,2.0 ,SF
- Courtney Lee,2.6 ,1.7 ,0.9 ,1.1 ,0.4 ,1.7 ,9.6 ,GF
- Cristiano Felicio,3.3 ,0.8 ,0.4 ,0.2 ,0.4 ,1.0 ,3.4 ,C
- D.J. Augustin,1.5 ,3.2 ,1.4 ,0.6 ,0.1 ,1.4 ,7.5 ,PG
- D'Angelo Russell,3.4 ,3.3 ,2.5 ,1.2 ,0.2 ,1.8 ,13.2 ,PG
- Dahntay Jones,5.0 ,2.0 ,0.0 ,1.0 ,2.0 ,6.0 ,13.0 ,GF
- Damian Lillard,4.0 ,6.8 ,3.2 ,0.9 ,0.4 ,2.2 ,25.1 ,PG
- Damien Inglis,1.6 ,0.5 ,0.6 ,0.3 ,0.2 ,0.6 ,1.8 ,SF
- Damjan Rudez,0.6 ,0.3 ,0.4 ,0.1 ,0.0 ,1.0 ,2.3 ,GF
- Danilo Gallinari,5.3 ,2.5 ,1.5 ,0.8 ,0.4 ,1.6 ,19.5 ,F
- Danny Green,3.8 ,1.8 ,0.9 ,1.0 ,0.8 ,1.8 ,7.2 ,GF
- Dante Cunningham,3.0 ,1.0 ,0.5 ,0.5 ,0.4 ,2.2 ,6.1 ,F
- Darrell Arthur,4.2 ,1.4 ,0.9 ,0.8 ,0.7 ,2.6 ,7.5 ,FC
- Darren Collison,2.3 ,4.3 ,1.8 ,1.0 ,0.1 ,1.9 ,14.0 ,PG
- Darrun Hilliard,1.2 ,0.7 ,0.5 ,0.2 ,0.0 ,0.7 ,4.0 ,SG
- David Lee,5.5 ,1.5 ,1.2 ,0.4 ,0.5 ,2.1 ,7.8 ,FC
- David West,4.0 ,1.8 ,0.9 ,0.6 ,0.7 ,1.8 ,7.1 ,PF
- DeAndre Jordan,13.8 ,1.2 ,1.4 ,0.7 ,2.3 ,2.7 ,12.7 ,C
- DeJuan Blair,2.0 ,0.4 ,0.5 ,0.3 ,0.1 ,1.8 ,2.1 ,FC
- Delon Wright,1.4 ,1.1 ,0.6 ,0.3 ,0.1 ,0.3 ,3.8 ,PG
- DeMar DeRozan,4.5 ,4.0 ,2.2 ,1.0 ,0.3 ,2.1 ,23.5 ,GF
- DeMarcus Cousins,11.5 ,3.3 ,3.8 ,1.6 ,1.4 ,3.6 ,26.9 ,FC
- DeMarre Carroll,4.7 ,1.0 ,1.1 ,1.7 ,0.2 ,2.4 ,11.0 ,F
- Dennis Schroder,2.6 ,4.4 ,2.3 ,0.9 ,0.1 ,1.7 ,11.0 ,PG
- Deron Williams,2.9 ,5.8 ,2.3 ,0.9 ,0.2 ,2.4 ,14.1 ,PG
- Derrick Favors,8.1 ,1.5 ,1.7 ,1.2 ,1.5 ,2.4 ,16.4 ,FC
- Derrick Rose,3.4 ,4.7 ,2.7 ,0.7 ,0.2 ,1.3 ,16.4 ,PG
- Derrick Williams,3.7 ,0.9 ,0.8 ,0.4 ,0.1 ,0.9 ,9.3 ,F
- Devin Booker,2.5 ,2.6 ,2.1 ,0.6 ,0.3 ,3.0 ,13.8 ,SG
- Devin Harris,2.2 ,1.8 ,1.0 ,0.9 ,0.2 ,1.9 ,7.6 ,G
- Devyn Marble,1.4 ,0.4 ,0.3 ,0.5 ,0.0 ,0.9 ,2.1 ,GF
- Dewayne Dedmon,3.9 ,0.2 ,0.6 ,0.4 ,0.8 ,1.9 ,4.4 ,C
- Dion Waiters,2.6 ,2.0 ,1.5 ,1.0 ,0.2 ,1.8 ,9.8 ,GF
- Dirk Nowitzki,6.5 ,1.8 ,1.1 ,0.7 ,0.7 ,2.1 ,18.3 ,FC
- Donald Sloan,2.8 ,4.4 ,1.3 ,0.5 ,0.1 ,1.2 ,7.0 ,G
- Donatas Motiejunas,2.9 ,1.1 ,1.2 ,0.5 ,0.1 ,1.9 ,6.2 ,F
- Doug McDermott,2.4 ,0.7 ,0.7 ,0.2 ,0.1 ,1.6 ,9.4 ,SF
- Draymond Green,9.5 ,7.4 ,3.2 ,1.5 ,1.4 ,3.0 ,14.0 ,F
- Drew Gooden,2.8 ,0.4 ,0.4 ,0.3 ,0.4 ,1.3 ,2.7 ,FC
- Duje Dukan,4.0 ,1.0 ,0.0 ,1.0 ,0.0 ,2.0 ,6.0 ,SF
- Dwight Howard,11.8 ,1.4 ,2.3 ,1.0 ,1.6 ,3.1 ,13.7 ,FC
- Dwight Powell,4.0 ,0.6 ,0.6 ,0.5 ,0.3 ,1.7 ,5.8 ,FC
- Dwyane Wade,4.1 ,4.6 ,2.7 ,1.1 ,0.6 ,1.6 ,19.0 ,G
- E'Twaun Moore,2.3 ,1.7 ,0.9 ,0.6 ,0.3 ,1.7 ,7.5 ,G
- Ed Davis,7.4 ,1.1 ,0.8 ,0.7 ,0.9 ,2.5 ,6.5 ,FC
- Edy Tavares,1.9 ,0.3 ,0.5 ,0.1 ,0.5 ,0.7 ,2.3 ,C
- Elfrid Payton,3.6 ,6.4 ,2.4 ,1.2 ,0.3 ,2.2 ,10.7 ,PG
- Elijah Millsap,1.8 ,1.0 ,0.5 ,0.4 ,0.2 ,1.7 ,1.8 ,GF
- Elliot Williams,0.8 ,0.8 ,0.2 ,0.0 ,0.0 ,0.4 ,1.6 ,SG
- Elton Brand,3.7 ,1.1 ,0.6 ,0.5 ,0.5 ,1.9 ,4.1 ,FC
- Emmanuel Mudiay,3.4 ,5.5 ,3.2 ,1.0 ,0.5 ,2.1 ,12.8 ,PG
- Enes Kanter,8.1 ,0.4 ,1.4 ,0.3 ,0.4 ,2.0 ,12.7 ,C
- Eric Bledsoe,4.0 ,6.1 ,3.5 ,2.0 ,0.6 ,2.4 ,20.4 ,G
- Eric Gordon,2.2 ,2.7 ,1.6 ,1.0 ,0.3 ,2.2 ,15.2 ,SG
- Eric Moreland,1.4 ,0.1 ,0.4 ,0.0 ,0.5 ,0.5 ,1.0 ,PF
- Erick Green,0.7 ,0.3 ,0.0 ,0.1 ,0.0 ,0.4 ,1.4 ,G
- Ersan Ilyasova,5.4 ,0.9 ,1.0 ,0.7 ,0.4 ,2.3 ,10.4 ,F
- Evan Fournier,2.8 ,2.7 ,1.7 ,1.2 ,0.0 ,2.7 ,15.4 ,GF
- Evan Turner,4.9 ,4.4 ,2.1 ,1.0 ,0.3 ,1.7 ,10.5 ,GF
- Festus Ezeli,5.6 ,0.7 ,0.8 ,0.4 ,1.1 ,2.0 ,7.0 ,C
- Frank Kaminsky,4.1 ,1.2 ,0.7 ,0.5 ,0.5 ,1.6 ,7.5 ,FC
- Garrett Temple,2.7 ,1.8 ,0.8 ,0.9 ,0.2 ,2.4 ,7.3 ,G
- Gary Harris,2.9 ,1.9 ,1.3 ,1.3 ,0.2 ,1.9 ,12.3 ,GF
- Gary Neal,2.1 ,1.2 ,0.7 ,0.5 ,0.0 ,1.4 ,9.8 ,G
- George Hill,4.0 ,3.5 ,1.4 ,1.1 ,0.2 ,2.0 ,12.1 ,G
- Gerald Green,2.4 ,0.8 ,0.7 ,0.5 ,0.3 ,1.8 ,8.9 ,GF
- Gerald Henderson,2.9 ,1.0 ,0.9 ,0.5 ,0.3 ,1.2 ,8.7 ,GF
- Giannis Antetokounmpo,7.7 ,4.3 ,2.6 ,1.2 ,1.4 ,3.2 ,16.9 ,SF
- Glenn Robinson III,1.5 ,0.6 ,0.4 ,0.4 ,0.2 ,0.5 ,3.8 ,GF
- Goran Dragic,3.8 ,5.8 ,2.6 ,1.0 ,0.2 ,2.6 ,14.1 ,G
- Gordon Hayward,5.0 ,3.7 ,2.5 ,1.2 ,0.3 ,2.3 ,19.7 ,GF
- Gorgui Dieng,7.1 ,1.7 ,1.7 ,1.1 ,1.2 ,2.7 ,10.1 ,FC
- Greg Monroe,8.8 ,2.3 ,1.6 ,0.9 ,0.8 ,2.1 ,15.3 ,FC
- Greg Smith,2.3 ,0.3 ,0.4 ,0.2 ,0.1 ,1.6 ,2.4 ,FC
- Greivis Vasquez,2.0 ,4.0 ,1.7 ,0.4 ,0.0 ,1.8 ,5.7 ,G
- Harrison Barnes,4.9 ,1.8 ,0.9 ,0.6 ,0.2 ,2.1 ,11.7 ,F
- Hassan Whiteside,11.8 ,0.4 ,1.9 ,0.6 ,3.7 ,2.8 ,14.2 ,C
- Henry Sims,5.1 ,0.6 ,0.9 ,0.6 ,1.0 ,2.6 ,6.5 ,C
- Hollis Thompson,3.5 ,1.3 ,1.0 ,0.5 ,0.3 ,2.4 ,9.8 ,GF
- Ian Clark,1.0 ,1.0 ,0.7 ,0.3 ,0.2 ,0.9 ,3.6 ,G
- Ian Mahinmi,7.1 ,1.5 ,1.4 ,0.9 ,1.1 ,3.1 ,9.3 ,C
- Iman Shumpert,3.8 ,1.7 ,1.1 ,1.0 ,0.4 ,2.2 ,5.8 ,GF
- Isaiah Canaan,2.3 ,1.8 ,1.2 ,0.7 ,0.2 ,1.7 ,11.0 ,PG
- Isaiah Thomas,3.0 ,6.2 ,2.7 ,1.1 ,0.1 ,2.0 ,22.2 ,PG
- Ish Smith,4.0 ,6.5 ,2.3 ,1.1 ,0.3 ,1.7 ,12.6 ,PG
- J.J. Barea,2.1 ,4.1 ,1.5 ,0.4 ,0.0 ,1.5 ,10.9 ,G
- J.J. Hickson,3.8 ,0.7 ,0.7 ,0.4 ,0.4 ,1.3 ,5.9 ,FC
- J.J. Redick,1.9 ,1.4 ,1.0 ,0.6 ,0.1 ,1.8 ,16.3 ,SG
- J.R. Smith,2.8 ,1.7 ,0.8 ,1.1 ,0.3 ,2.6 ,12.4 ,GF
- Jabari Parker,5.2 ,1.7 ,1.5 ,0.9 ,0.4 ,2.0 ,14.1 ,F
- Jae Crowder,5.1 ,1.8 ,1.1 ,1.7 ,0.5 ,2.7 ,14.2 ,F
- Jahlil Okafor,7.0 ,1.2 ,2.3 ,0.4 ,1.2 ,2.6 ,17.5 ,C
- Jakarr Sampson,2.6 ,0.6 ,1.0 ,0.3 ,0.5 ,1.9 ,5.1 ,GF
- Jamal Crawford,1.8 ,2.3 ,1.4 ,0.7 ,0.2 ,1.5 ,14.2 ,GF
- Jameer Nelson,2.9 ,4.9 ,1.7 ,0.6 ,0.1 ,2.6 ,7.7 ,PG
- James Anderson,1.7 ,0.8 ,0.8 ,0.4 ,0.3 ,1.1 ,3.5 ,GF
- James Ennis III,1.9 ,1.0 ,0.9 ,0.7 ,0.2 ,1.3 ,7.2 ,GF
- James Harden,6.1 ,7.5 ,4.6 ,1.7 ,0.6 ,2.8 ,29.0 ,G
- James Johnson,2.2 ,1.2 ,0.9 ,0.5 ,0.6 ,1.5 ,5.0 ,F
- James Jones,1.0 ,0.3 ,0.3 ,0.2 ,0.2 ,1.0 ,3.8 ,GF
- James Michael McAdoo,1.4 ,0.4 ,0.4 ,0.2 ,0.2 ,1.0 ,2.9 ,PF
- James Young,0.9 ,0.3 ,0.2 ,0.2 ,0.0 ,0.6 ,1.0 ,SG
- JaMychal Green,4.8 ,0.9 ,1.1 ,0.6 ,0.4 ,2.4 ,7.4 ,PF
- Jared Cunningham,0.9 ,0.5 ,0.5 ,0.3 ,0.0 ,0.9 ,2.7 ,G
- Jared Dudley,3.5 ,2.1 ,1.0 ,0.9 ,0.2 ,2.3 ,7.9 ,F
- Jared Sullinger,8.3 ,2.3 ,1.3 ,0.9 ,0.6 ,2.6 ,10.3 ,FC
- Jarell Eddie,0.9 ,0.2 ,0.0 ,0.2 ,0.0 ,0.2 ,2.4 ,SG
- Jarell Martin,3.2 ,0.6 ,0.7 ,0.3 ,0.3 ,2.1 ,5.7 ,FC
- Jarnell Stokes,0.6 ,0.1 ,0.0 ,0.1 ,0.0 ,0.1 ,1.0 ,PF
- Jarrett Jack,4.3 ,7.4 ,2.9 ,1.1 ,0.2 ,2.4 ,12.8 ,G
- Jason Smith,2.9 ,0.8 ,0.8 ,0.4 ,0.9 ,2.1 ,7.2 ,FC
- Jason Terry,1.1 ,1.4 ,0.7 ,0.7 ,0.1 ,1.3 ,5.9 ,G
- Jason Thompson,2.9 ,0.6 ,0.3 ,0.3 ,0.4 ,1.7 ,3.1 ,FC
- JaVale McGee,3.9 ,0.1 ,0.6 ,0.1 ,0.8 ,1.4 ,5.1 ,C
- Jeff Ayres,1.3 ,0.3 ,0.4 ,0.0 ,0.2 ,1.1 ,1.8 ,FC
- Jeff Green,4.2 ,1.7 ,1.2 ,0.7 ,0.5 ,2.1 ,11.7 ,GF
- Jeff Teague,2.7 ,5.9 ,2.8 ,1.2 ,0.3 ,2.1 ,15.7 ,PG
- Jeff Withey,3.4 ,0.4 ,0.5 ,0.4 ,1.0 ,1.5 ,4.3 ,C
- Jerami Grant,4.7 ,1.8 ,1.4 ,0.7 ,1.6 ,2.8 ,9.7 ,F
- Jeremy Evans,1.8 ,0.1 ,0.2 ,0.2 ,0.3 ,0.6 ,2.4 ,F
- Jeremy Lamb,3.8 ,1.2 ,0.8 ,0.6 ,0.5 ,1.6 ,8.8 ,GF
- Jeremy Lin,3.2 ,3.0 ,1.9 ,0.7 ,0.5 ,2.1 ,11.7 ,G
- Jerian Grant,1.9 ,2.3 ,1.1 ,0.7 ,0.1 ,1.3 ,5.6 ,G
- Jerryd Bayless,2.7 ,3.1 ,1.4 ,0.9 ,0.2 ,2.1 ,10.4 ,G
- Jimmer Fredette,0.0 ,0.2 ,0.3 ,0.2 ,0.0 ,0.3 ,1.5 ,G
- Jimmy Butler,5.3 ,4.8 ,2.0 ,1.6 ,0.6 ,1.9 ,20.9 ,GF
- JJ O'Brien,0.5 ,0.0 ,0.0 ,0.5 ,0.0 ,0.5 ,0.0 ,SF
- Joakim Noah,8.8 ,3.8 ,1.8 ,0.6 ,1.0 ,2.7 ,4.3 ,FC
- Jodie Meeks,1.7 ,1.0 ,0.3 ,0.0 ,0.0 ,0.7 ,7.3 ,SG
- Joe Harris,0.6 ,0.4 ,0.2 ,0.0 ,0.0 ,0.2 ,0.6 ,SG
- Joe Ingles,1.9 ,1.2 ,0.8 ,0.7 ,0.0 ,1.2 ,4.2 ,GF
- Joe Johnson,3.6 ,3.9 ,2.0 ,0.8 ,0.0 ,1.8 ,12.2 ,GF
- Joe Young,1.2 ,1.6 ,0.8 ,0.4 ,0.0 ,0.7 ,3.8 ,G
- Joel Anthony,1.1 ,0.1 ,0.1 ,0.1 ,0.6 ,0.8 ,0.9 ,FC
- Joffrey Lauvergne,4.9 ,0.9 ,0.9 ,0.2 ,0.3 ,1.9 ,7.9 ,FC
- John Henson,3.9 ,0.9 ,1.1 ,0.3 ,1.9 ,2.3 ,7.0 ,FC
- John Jenkins,1.3 ,0.8 ,0.6 ,0.2 ,0.0 ,0.5 ,4.1 ,GF
- John Wall,4.9 ,10.2 ,4.1 ,1.9 ,0.8 ,2.1 ,19.9 ,PG
- Johnny O'Bryant,2.7 ,0.5 ,0.5 ,0.3 ,0.1 ,1.5 ,3.0 ,PF
- Jon Leuer,5.6 ,1.1 ,1.1 ,0.6 ,0.4 ,1.9 ,8.5 ,FC
- Jonas Jerebko,3.7 ,0.8 ,0.7 ,0.3 ,0.3 ,1.8 ,4.4 ,F
- Jonas Valanciunas,9.1 ,0.7 ,1.4 ,0.4 ,1.3 ,2.6 ,12.8 ,C
- Jonathon Simmons,1.7 ,1.1 ,1.0 ,0.4 ,0.1 ,1.9 ,6.0 ,GF
- Jordan Adams,1.0 ,1.5 ,1.0 ,1.5 ,0.0 ,1.0 ,3.5 ,SG
- Jordan Clarkson,4.0 ,2.4 ,1.7 ,1.1 ,0.1 ,2.1 ,15.5 ,G
- Jordan Farmar,2.1 ,3.1 ,1.5 ,1.3 ,0.2 ,1.8 ,9.2 ,PG
- Jordan Hamilton,5.6 ,2.3 ,1.5 ,0.7 ,0.3 ,2.2 ,11.4 ,SF
- Jordan Hill,6.2 ,1.2 ,1.3 ,0.5 ,0.5 ,2.1 ,8.8 ,FC
- Jordan McRae,0.9 ,1.1 ,0.7 ,0.1 ,0.0 ,0.8 ,4.5 ,G
- Jordan Mickey,0.8 ,0.1 ,0.1 ,0.0 ,0.7 ,0.3 ,1.3 ,PF
- Jorge Gutierrez,0.6 ,1.4 ,0.5 ,0.3 ,0.0 ,0.3 ,1.8 ,PG
- Jose Calderon,3.2 ,4.1 ,1.2 ,0.9 ,0.1 ,1.9 ,7.6 ,PG
- Josh Huestis,2.0 ,0.0 ,0.6 ,0.2 ,0.4 ,0.6 ,2.8 ,SF
- Josh McRoberts,2.5 ,1.9 ,0.7 ,0.4 ,0.2 ,1.6 ,3.6 ,FC
- Josh Richardson,2.1 ,1.4 ,0.7 ,0.7 ,0.5 ,2.1 ,6.6 ,SF
- Josh Smith,3.5 ,1.6 ,1.4 ,0.6 ,0.9 ,2.1 ,6.0 ,F
- Jrue Holiday,3.0 ,6.0 ,2.6 ,1.4 ,0.3 ,2.3 ,16.8 ,PG
- Julius Randle,10.2 ,1.8 ,1.8 ,0.7 ,0.4 ,3.0 ,11.3 ,PF
- Justin Anderson,2.4 ,0.5 ,0.4 ,0.3 ,0.5 ,0.8 ,3.8 ,SF
- Justin Harper,0.2 ,0.0 ,0.4 ,0.2 ,0.0 ,0.6 ,2.6 ,PF
- Justin Holiday,1.7 ,1.1 ,0.7 ,0.6 ,0.4 ,1.2 ,4.5 ,GF
- Justise Winslow,5.2 ,1.5 ,1.2 ,0.9 ,0.3 ,2.4 ,6.5 ,F
- Jusuf Nurkic,5.5 ,1.3 ,1.7 ,0.8 ,1.4 ,2.8 ,8.2 ,C
- K.J. McDaniels,1.1 ,0.3 ,0.5 ,0.2 ,0.2 ,0.8 ,2.4 ,SF
- Karl-Anthony Towns,10.5 ,2.0 ,2.2 ,0.7 ,1.7 ,3.0 ,18.3 ,C
- Kawhi Leonard,6.8 ,2.6 ,1.5 ,1.8 ,1.0 ,1.8 ,21.2 ,GF
- Keith Appling,0.2 ,0.2 ,0.6 ,0.2 ,0.0 ,1.0 ,1.2 ,PG
- Kelly Olynyk,4.1 ,1.5 ,1.1 ,0.8 ,0.5 ,2.4 ,10.0 ,C
- Kelly Oubre Jr.,2.1 ,0.2 ,0.5 ,0.3 ,0.1 ,1.6 ,3.7 ,SF
- Kemba Walker,4.4 ,5.2 ,2.1 ,1.6 ,0.5 ,1.4 ,20.9 ,PG
- Kendall Marshall,0.9 ,2.4 ,1.4 ,0.5 ,0.1 ,1.0 ,3.7 ,PG
- Kendrick Perkins,3.5 ,0.8 ,1.1 ,0.3 ,0.3 ,1.7 ,2.5 ,C
- Kenneth Faried,8.7 ,1.2 ,1.4 ,0.5 ,0.9 ,2.5 ,12.5 ,FC
- Kent Bazemore,5.1 ,2.3 ,1.8 ,1.3 ,0.5 ,2.3 ,11.6 ,GF
- Kentavious Caldwell-Pope,3.7 ,1.8 ,1.4 ,1.4 ,0.2 ,2.2 ,14.5 ,SG
- Kevin Durant,8.2 ,5.0 ,3.5 ,1.0 ,1.2 ,1.9 ,28.2 ,F
- Kevin Garnett,3.9 ,1.6 ,0.4 ,0.7 ,0.3 ,1.8 ,3.2 ,FC
- Kevin Love,9.9 ,2.4 ,1.8 ,0.8 ,0.5 ,2.1 ,16.0 ,FC
- Kevin Martin,2.0 ,1.1 ,1.0 ,0.5 ,0.1 ,1.5 ,9.3 ,GF
- Kevin Seraphin,2.6 ,1.0 ,0.9 ,0.2 ,0.8 ,1.4 ,3.9 ,FC
- Kevon Looney,2.0 ,0.0 ,0.2 ,0.0 ,0.0 ,0.4 ,1.8 ,PF
- Khris Middleton,3.8 ,4.2 ,2.3 ,1.7 ,0.2 ,2.6 ,18.2 ,GF
- Kirk Hinrich,1.5 ,1.6 ,0.7 ,0.3 ,0.0 ,1.4 ,3.0 ,G
- Klay Thompson,3.8 ,2.1 ,1.7 ,0.8 ,0.6 ,1.9 ,22.1 ,GF
- Kobe Bryant,3.7 ,2.8 ,2.0 ,0.9 ,0.2 ,1.7 ,17.6 ,GF
- Kosta Koufos,5.4 ,0.4 ,0.6 ,0.5 ,0.9 ,2.4 ,6.8 ,FC
- Kostas Papanikolaou,1.5 ,0.6 ,0.8 ,0.5 ,0.2 ,0.9 ,2.6 ,F
- Kris Humphries,4.1 ,0.7 ,0.7 ,0.3 ,0.4 ,1.8 ,6.5 ,FC
- Kristaps Porzingis,7.3 ,1.3 ,1.7 ,0.7 ,1.9 ,2.8 ,14.3 ,FC
- Kyle Anderson,3.1 ,1.6 ,0.8 ,0.8 ,0.4 ,1.2 ,4.5 ,GF
- Kyle Korver,3.3 ,2.1 ,1.2 ,0.8 ,0.4 ,2.0 ,9.2 ,GF
- Kyle Lowry,4.7 ,6.4 ,2.9 ,2.1 ,0.4 ,2.7 ,21.2 ,PG
- Kyle O'Quinn,3.8 ,1.1 ,0.9 ,0.3 ,0.8 ,1.6 ,4.8 ,FC
- Kyle Singler,2.1 ,0.4 ,0.5 ,0.4 ,0.1 ,1.8 ,3.4 ,GF
- Kyrie Irving,3.0 ,4.7 ,2.3 ,1.1 ,0.3 ,2.0 ,19.6 ,G
- Lamar Patterson,1.4 ,1.1 ,0.7 ,0.3 ,0.1 ,1.3 ,2.4 ,SG
- LaMarcus Aldridge,8.5 ,1.5 ,1.3 ,0.5 ,1.1 ,2.0 ,18.0 ,FC
- Lance Stephenson,3.2 ,1.9 ,1.4 ,0.6 ,0.1 ,2.0 ,8.3 ,GF
- Lance Thomas,2.2 ,0.9 ,1.0 ,0.4 ,0.1 ,1.8 ,8.2 ,GF
- Langston Galloway,3.5 ,2.5 ,0.7 ,0.9 ,0.3 ,2.2 ,7.6 ,G
- Larry Nance Jr.,5.0 ,0.7 ,0.7 ,0.9 ,0.4 ,2.0 ,5.5 ,PF
- Lavoy Allen,5.4 ,1.0 ,0.9 ,0.3 ,0.5 ,1.9 ,5.4 ,FC
- Leandro Barbosa,1.7 ,1.2 ,0.8 ,0.6 ,0.1 ,1.6 ,6.4 ,G
- LeBron James,7.4 ,6.8 ,3.3 ,1.4 ,0.6 ,1.9 ,25.3 ,F
- Lorenzo Brown,0.9 ,1.4 ,1.1 ,0.4 ,0.1 ,0.5 ,2.5 ,PG
- Lou Williams,2.5 ,2.5 ,1.6 ,0.9 ,0.3 ,1.6 ,15.3 ,G
- Louis Amundson,1.7 ,0.4 ,0.5 ,0.2 ,0.2 ,1.5 ,1.8 ,PF
- Luc Richard Mbah a Moute,2.3 ,0.4 ,0.5 ,0.6 ,0.3 ,1.3 ,3.1 ,F
- Lucas Nogueira,1.6 ,0.2 ,0.4 ,0.4 ,0.4 ,1.0 ,2.2 ,C
- Luis Montero,0.3 ,0.1 ,0.3 ,0.0 ,0.0 ,0.1 ,1.2 ,SF
- Luis Scola,4.7 ,0.9 ,0.9 ,0.6 ,0.4 ,2.3 ,8.7 ,FC
- Luke Babbitt,3.1 ,1.1 ,0.5 ,0.2 ,0.1 ,1.9 ,7.0 ,SF
- Luol Deng,6.0 ,1.9 ,1.1 ,1.0 ,0.4 ,1.6 ,12.3 ,F
- Manu Ginobili,2.5 ,3.1 ,1.7 ,1.1 ,0.2 ,1.7 ,9.6 ,GF
- Marc Gasol,7.0 ,3.8 ,2.3 ,1.0 ,1.3 ,2.7 ,16.6 ,C
- Marcelo Huertas,1.7 ,3.4 ,1.5 ,0.5 ,0.1 ,1.4 ,4.5 ,PG
- Marcin Gortat,9.9 ,1.4 ,1.6 ,0.6 ,1.3 ,2.6 ,13.5 ,C
- Marco Belinelli,1.7 ,1.9 ,1.2 ,0.5 ,0.0 ,1.3 ,10.2 ,GF
- Marcus Morris,5.1 ,2.5 ,1.8 ,0.8 ,0.3 ,2.1 ,14.1 ,F
- Marcus Smart,4.2 ,3.0 ,1.3 ,1.5 ,0.3 ,3.0 ,9.1 ,PG
- Marcus Thornton,2.5 ,1.4 ,0.8 ,0.8 ,0.1 ,1.5 ,9.7 ,GF
- Mario Chalmers,2.6 ,3.8 ,1.8 ,1.4 ,0.2 ,3.0 ,10.3 ,G
- Mario Hezonja,2.2 ,1.4 ,1.2 ,0.5 ,0.2 ,1.6 ,6.1 ,SG
- Markel Brown,2.0 ,1.5 ,0.9 ,0.6 ,0.2 ,1.5 ,5.9 ,SG
- Markieff Morris,5.5 ,1.9 ,2.1 ,0.9 ,0.5 ,2.9 ,12.0 ,F
- Marreese Speights,3.3 ,0.8 ,0.9 ,0.3 ,0.5 ,1.6 ,7.1 ,FC
- Marvin Williams,6.4 ,1.4 ,0.8 ,0.7 ,1.0 ,1.6 ,11.7 ,F
- Mason Plumlee,7.7 ,2.8 ,1.9 ,0.8 ,1.0 ,3.1 ,9.1 ,FC
- Matt Barnes,5.5 ,2.1 ,1.6 ,1.0 ,0.8 ,3.1 ,10.0 ,GF
- Matt Bonner,0.9 ,0.3 ,0.1 ,0.2 ,0.0 ,0.5 ,2.5 ,FC
- Matthew Dellavedova,2.1 ,4.4 ,1.5 ,0.6 ,0.1 ,2.3 ,7.5 ,G
- Maurice Harkless,3.6 ,0.9 ,0.8 ,0.6 ,0.4 ,1.6 ,6.4 ,SF
- Metta World Peace,2.5 ,0.8 ,0.4 ,0.6 ,0.3 ,1.9 ,5.0 ,F
- Meyers Leonard,5.1 ,1.5 ,1.3 ,0.1 ,0.3 ,3.0 ,8.4 ,FC
- Michael Beasley,4.9 ,0.8 ,1.2 ,0.6 ,0.5 ,2.0 ,12.8 ,F
- Michael Carter-Williams,5.1 ,5.2 ,2.8 ,1.5 ,0.8 ,3.0 ,11.5 ,PG
- Michael Kidd-Gilchrist,6.4 ,1.3 ,1.1 ,0.4 ,0.4 ,1.3 ,12.7 ,SF
- Mike Conley,2.9 ,6.1 ,1.5 ,1.2 ,0.3 ,1.8 ,15.3 ,PG
- Mike Dunleavy,2.7 ,1.3 ,0.8 ,0.5 ,0.3 ,2.1 ,7.2 ,GF
- Mike Miller,1.1 ,0.9 ,0.4 ,0.3 ,0.1 ,1.1 ,1.3 ,GF
- Mike Muscala,2.0 ,0.6 ,0.5 ,0.2 ,0.5 ,1.2 ,3.3 ,FC
- Mike Scott,2.7 ,1.0 ,0.6 ,0.3 ,0.2 ,1.4 ,6.2 ,PF
- Miles Plumlee,3.8 ,0.3 ,0.7 ,0.3 ,0.8 ,1.2 ,5.1 ,FC
- Mirza Teletovic,3.8 ,1.1 ,1.1 ,0.4 ,0.3 ,2.0 ,12.2 ,F
- Mitch McGary,0.9 ,0.2 ,0.4 ,0.1 ,0.1 ,0.5 ,1.3 ,FC
- Mo Williams,1.8 ,2.4 ,1.4 ,0.3 ,0.1 ,1.5 ,8.2 ,G
- Monta Ellis,3.3 ,4.7 ,2.5 ,1.9 ,0.5 ,2.1 ,13.8 ,G
- Montrezl Harrell,1.7 ,0.4 ,0.4 ,0.3 ,0.3 ,1.2 ,3.6 ,PF
- Myles Turner,5.5 ,0.7 ,1.1 ,0.4 ,1.4 ,2.6 ,10.3 ,FC
- Nate Robinson,0.0 ,2.0 ,0.0 ,0.5 ,0.0 ,2.5 ,0.0 ,G
- Nazr Mohammed,0.8 ,0.0 ,0.6 ,0.0 ,0.0 ,0.8 ,1.6 ,C
- Nemanja Bjelica,3.5 ,1.4 ,0.8 ,0.4 ,0.4 ,2.6 ,5.1 ,PF
- Nene Hilario,4.5 ,1.7 ,1.3 ,0.9 ,0.5 ,2.7 ,9.2 ,FC
- Nerlens Noel,8.1 ,1.8 ,2.4 ,1.8 ,1.5 ,2.9 ,11.1 ,FC
- Nick Collison,2.9 ,0.9 ,0.8 ,0.3 ,0.3 ,1.8 ,2.1 ,FC
- Nick Young,1.8 ,0.6 ,0.6 ,0.4 ,0.1 ,0.9 ,7.3 ,GF
- Nicolas Batum,6.1 ,5.8 ,2.9 ,0.9 ,0.6 ,1.6 ,14.9 ,GF
- Nik Stauskas,2.5 ,1.9 ,1.3 ,0.6 ,0.3 ,1.6 ,8.5 ,GF
- Nikola Jokic,7.0 ,2.4 ,1.3 ,1.0 ,0.6 ,2.6 ,10.0 ,FC
- Nikola Mirotic,5.5 ,1.5 ,1.5 ,0.9 ,0.7 ,2.3 ,11.8 ,F
- Nikola Pekovic,1.8 ,0.9 ,0.8 ,0.1 ,0.0 ,1.8 ,4.5 ,C
- Nikola Vucevic,8.9 ,2.8 ,1.9 ,0.8 ,1.1 ,2.7 ,18.2 ,FC
- Noah Vonleh,3.9 ,0.4 ,0.6 ,0.3 ,0.3 ,1.9 ,3.6 ,PF
- Norman Powell,2.3 ,1.0 ,0.7 ,0.6 ,0.2 ,1.2 ,5.6 ,GF
- Norris Cole,3.4 ,3.7 ,1.7 ,0.8 ,0.1 ,2.3 ,10.6 ,G
- O.J. Mayo,2.6 ,2.9 ,1.8 ,1.2 ,0.2 ,3.1 ,7.8 ,G
- Omer Asik,6.1 ,0.4 ,0.9 ,0.3 ,0.3 ,1.8 ,4.0 ,FC
- Omri Casspi,5.9 ,1.4 ,1.4 ,0.8 ,0.2 ,2.2 ,11.8 ,F
- Orlando Johnson,2.1 ,0.3 ,0.6 ,0.4 ,0.4 ,1.3 ,3.7 ,GF
- Otto Porter,5.2 ,1.6 ,0.9 ,1.4 ,0.4 ,2.2 ,11.6 ,SF
- P.J. Hairston,2.6 ,0.6 ,0.6 ,0.5 ,0.2 ,2.1 ,6.2 ,GF
- P.J. Tucker,6.2 ,2.2 ,1.4 ,1.3 ,0.2 ,2.5 ,8.0 ,GF
- Pablo Prigioni,1.9 ,2.2 ,0.8 ,0.9 ,0.0 ,1.4 ,2.5 ,G
- Pat Connaughton,0.9 ,0.3 ,0.3 ,0.1 ,0.0 ,0.2 ,1.1 ,GF
- Patrick Beverley,3.5 ,3.4 ,1.3 ,1.3 ,0.4 ,3.3 ,9.9 ,G
- Patrick Patterson,4.3 ,1.2 ,0.8 ,0.7 ,0.4 ,1.6 ,6.9 ,FC
- Patty Mills,2.0 ,2.8 ,0.9 ,0.7 ,0.1 ,1.3 ,8.5 ,PG
- Pau Gasol,11.0 ,4.1 ,2.3 ,0.6 ,2.0 ,2.1 ,16.5 ,FC
- Paul George,7.0 ,4.1 ,3.3 ,1.9 ,0.4 ,2.8 ,23.1 ,F
- Paul Millsap,9.0 ,3.3 ,2.4 ,1.8 ,1.7 ,2.9 ,17.1 ,FC
- Paul Pierce,2.7 ,1.0 ,0.9 ,0.5 ,0.3 ,1.9 ,6.1 ,F
- Phil Pressey,1.3 ,3.3 ,1.4 ,0.8 ,0.2 ,1.2 ,3.3 ,PG
- Quincy Acy,3.2 ,0.5 ,0.5 ,0.5 ,0.4 ,1.7 ,5.2 ,F
- R.J. Hunter,1.0 ,0.4 ,0.3 ,0.4 ,0.1 ,0.8 ,2.7 ,SG
- Rajon Rondo,6.0 ,11.7 ,3.9 ,2.0 ,0.1 ,2.4 ,11.9 ,PG
- Rakeem Christmas,1.0 ,0.0 ,0.0 ,0.0 ,0.0 ,1.0 ,4.0 ,PF
- Ramon Sessions,2.5 ,2.9 ,1.4 ,0.6 ,0.1 ,1.2 ,9.9 ,G
- Randy Foye,1.9 ,2.0 ,1.1 ,0.5 ,0.4 ,1.6 ,5.9 ,G
- Rashad Vaughn,1.3 ,0.6 ,0.4 ,0.4 ,0.2 ,1.0 ,3.1 ,GF
- Rasual Butler,1.2 ,0.5 ,0.2 ,0.3 ,0.5 ,0.2 ,2.7 ,GF
- Raul Neto,1.5 ,2.1 ,1.3 ,0.8 ,0.0 ,1.5 ,5.9 ,PG
- Ray McCallum,1.1 ,1.5 ,0.6 ,0.3 ,0.2 ,0.7 ,3.3 ,PG
- Raymond Felton,3.2 ,3.6 ,1.5 ,0.9 ,0.2 ,1.8 ,9.5 ,G
- Reggie Bullock,1.8 ,0.7 ,0.2 ,0.3 ,0.1 ,0.8 ,3.3 ,GF
- Reggie Jackson,3.2 ,6.2 ,2.8 ,0.7 ,0.1 ,2.4 ,18.8 ,G
- Richard Jefferson,1.7 ,0.8 ,0.6 ,0.4 ,0.2 ,1.7 ,5.5 ,GF
- Richaun Holmes,2.6 ,0.6 ,0.6 ,0.4 ,0.8 ,1.8 ,5.6 ,FC
- Ricky Rubio,4.3 ,8.6 ,2.5 ,2.1 ,0.1 ,2.6 ,10.1 ,PG
- Robert Covington,6.3 ,1.4 ,2.1 ,1.6 ,0.6 ,3.5 ,12.8 ,F
- Robert Sacre,2.9 ,0.6 ,0.5 ,0.2 ,0.4 ,1.7 ,3.5 ,C
- Robin Lopez,7.3 ,1.4 ,1.6 ,0.2 ,1.6 ,2.2 ,10.3 ,C
- Rodney Hood,3.4 ,2.7 ,1.6 ,0.9 ,0.2 ,2.6 ,14.5 ,GF
- Rodney Stuckey,2.7 ,2.4 ,1.3 ,0.7 ,0.1 ,1.3 ,8.9 ,G
- Rondae Hollis-Jefferson,5.3 ,1.5 ,0.9 ,1.3 ,0.6 ,2.1 ,5.8 ,GF
- Ronnie Price,1.6 ,2.4 ,1.1 ,1.2 ,0.2 ,2.6 ,5.3 ,G
- Roy Hibbert,4.9 ,1.2 ,0.9 ,0.4 ,1.4 ,3.1 ,5.9 ,C
- Rudy Gay,6.5 ,1.7 ,2.0 ,1.4 ,0.7 ,2.6 ,17.2 ,F
- Rudy Gobert,11.0 ,1.5 ,1.9 ,0.7 ,2.2 ,2.7 ,9.1 ,C
- Russ Smith,0.6 ,0.7 ,0.5 ,0.3 ,0.1 ,0.3 ,1.5 ,PG
- Russell Westbrook,7.8 ,10.4 ,4.3 ,2.0 ,0.3 ,2.5 ,23.5 ,PG
- Ryan Anderson,6.0 ,1.1 ,1.4 ,0.6 ,0.4 ,1.7 ,17.0 ,FC
- Ryan Hollins,2.6 ,0.3 ,0.6 ,0.2 ,0.6 ,1.7 ,3.4 ,C
- Ryan Kelly,3.4 ,0.6 ,0.5 ,0.4 ,0.3 ,1.1 ,4.2 ,F
- Salah Mejri,3.6 ,0.3 ,0.7 ,0.2 ,1.1 ,1.6 ,3.7 ,C
- Sam Dekker,0.3 ,0.0 ,0.0 ,0.3 ,0.0 ,0.0 ,0.0 ,F
- Sasha Kaun,1.0 ,0.1 ,0.3 ,0.2 ,0.2 ,0.4 ,0.9 ,C
- Sasha Vujacic,2.4 ,1.4 ,0.7 ,0.6 ,0.1 ,1.4 ,4.9 ,SG
- Sean Kilpatrick,1.8 ,0.9 ,1.0 ,0.4 ,0.1 ,1.2 ,11.1 ,G
- Serge Ibaka,6.8 ,0.8 ,1.4 ,0.5 ,1.9 ,2.7 ,12.6 ,FC
- Sergey Karasev,1.5 ,0.9 ,0.6 ,0.2 ,0.1 ,0.7 ,2.4 ,GF
- Seth Curry,1.4 ,1.5 ,0.8 ,0.5 ,0.1 ,0.9 ,6.8 ,G
- Shabazz Muhammad,3.3 ,0.6 ,0.9 ,0.3 ,0.1 ,1.1 ,10.5 ,GF
- Shabazz Napier,1.0 ,1.8 ,0.8 ,0.4 ,0.0 ,0.7 ,3.7 ,PG
- Shane Larkin,2.3 ,4.4 ,1.9 ,1.2 ,0.2 ,1.6 ,7.3 ,PG
- Shaun Livingston,2.2 ,3.0 ,1.0 ,0.7 ,0.3 ,1.8 ,6.3 ,G
- Shayne Whittington,1.7 ,0.4 ,0.7 ,0.1 ,0.1 ,1.0 ,1.6 ,C
- Shelvin Mack,2.5 ,3.6 ,1.8 ,0.7 ,0.1 ,1.4 ,8.6 ,PG
- Solomon Hill,2.8 ,1.0 ,0.6 ,0.6 ,0.2 ,1.2 ,4.2 ,GF
- Sonny Weems,1.2 ,1.1 ,1.0 ,0.2 ,0.0 ,1.1 ,2.5 ,GF
- Spencer Dinwiddie,1.4 ,1.8 ,0.6 ,0.3 ,0.0 ,1.7 ,4.8 ,PG
- Spencer Hawes,4.3 ,1.9 ,1.0 ,0.4 ,0.5 ,1.9 ,6.0 ,FC
- Stanley Johnson,4.2 ,1.6 ,1.6 ,0.8 ,0.2 ,2.4 ,8.1 ,GF
- Stephen Curry,5.4 ,6.7 ,3.3 ,2.1 ,0.2 ,2.0 ,30.1 ,G
- Steve Blake,1.5 ,3.4 ,1.4 ,0.4 ,0.1 ,1.2 ,4.4 ,G
- Steve Novak,0.5 ,0.0 ,0.1 ,0.0 ,0.0 ,0.3 ,2.4 ,F
- Steven Adams,6.7 ,0.8 ,1.1 ,0.5 ,1.1 ,2.8 ,8.0 ,C
- T.J. McConnell,3.1 ,4.5 ,1.7 ,1.2 ,0.1 ,1.4 ,6.1 ,PG
- T.J. Warren,3.1 ,0.9 ,0.7 ,0.8 ,0.3 ,2.0 ,11.0 ,SF
- Taj Gibson,6.9 ,1.5 ,1.1 ,0.6 ,1.1 ,2.5 ,8.6 ,FC
- Tarik Black,4.0 ,0.4 ,0.6 ,0.4 ,0.5 ,2.0 ,3.4 ,FC
- Tayshaun Prince,1.9 ,1.0 ,0.4 ,0.5 ,0.2 ,0.8 ,2.9 ,F
- Terrence Jones,4.2 ,0.8 ,1.0 ,0.5 ,0.8 ,1.7 ,8.7 ,F
- Terrence Ross,2.5 ,0.8 ,0.6 ,0.7 ,0.3 ,1.6 ,9.9 ,GF
- Terry Rozier,1.6 ,0.9 ,0.5 ,0.2 ,0.0 ,0.6 ,1.8 ,PG
- Thabo Sefolosha,4.5 ,1.4 ,0.9 ,1.1 ,0.5 ,1.5 ,6.4 ,GF
- Thaddeus Young,9.0 ,1.9 ,1.9 ,1.5 ,0.5 ,2.5 ,15.1 ,F
- Thanasis Antetokounmpo,0.5 ,0.0 ,0.0 ,0.0 ,0.0 ,1.0 ,3.0 ,SF
- Thomas Robinson,5.1 ,0.6 ,1.0 ,0.5 ,0.5 ,1.6 ,4.3 ,FC
- Tiago Splitter,3.3 ,0.8 ,0.7 ,0.6 ,0.3 ,2.0 ,5.6 ,C
- Tibor Pleiss,1.3 ,0.2 ,0.7 ,0.1 ,0.2 ,1.6 ,2.0 ,C
- Tim Duncan,7.3 ,2.7 ,1.5 ,0.8 ,1.3 ,2.0 ,8.6 ,FC
- Tim Frazier,2.2 ,3.2 ,1.3 ,0.6 ,0.0 ,1.4 ,5.1 ,G
- Tim Hardaway Jr.,1.7 ,1.0 ,0.5 ,0.4 ,0.1 ,0.9 ,6.4 ,GF
- Timofey Mozgov,4.4 ,0.4 ,0.9 ,0.3 ,0.8 ,2.1 ,6.3 ,C
- Tobias Harris,6.7 ,2.2 ,1.4 ,0.9 ,0.5 ,2.0 ,14.7 ,F
- Toney Douglas,2.3 ,2.6 ,1.0 ,1.1 ,0.1 ,2.1 ,8.7 ,G
- Tony Allen,4.6 ,1.1 ,1.2 ,1.7 ,0.3 ,2.7 ,8.4 ,GF
- Tony Parker,2.4 ,5.3 ,1.8 ,0.8 ,0.2 ,1.6 ,11.9 ,PG
- Tony Snell,3.1 ,1.0 ,0.8 ,0.3 ,0.3 ,1.6 ,5.3 ,GF
- Tony Wroten,2.6 ,2.5 ,3.6 ,0.4 ,0.0 ,1.4 ,8.4 ,G
- Trevor Ariza,4.5 ,2.3 ,1.4 ,2.0 ,0.3 ,2.2 ,12.7 ,GF
- Trevor Booker,5.7 ,1.1 ,1.0 ,0.7 ,0.5 ,2.1 ,5.9 ,PF
- Trey Burke,1.8 ,2.3 ,1.3 ,0.5 ,0.1 ,1.3 ,10.6 ,PG
- Trey Lyles,3.7 ,0.7 ,0.8 ,0.3 ,0.2 ,1.4 ,6.1 ,PF
- Tristan Thompson,9.0 ,0.8 ,0.7 ,0.5 ,0.6 ,2.5 ,7.8 ,FC
- Troy Daniels,1.3 ,0.5 ,0.6 ,0.3 ,0.1 ,0.9 ,5.6 ,G
- Ty Lawson,1.8 ,3.6 ,1.4 ,0.8 ,0.1 ,1.3 ,5.7 ,PG
- Tyler Ennis,1.6 ,2.1 ,1.0 ,0.5 ,0.0 ,1.4 ,4.5 ,PG
- Tyler Hansbrough,2.0 ,0.2 ,0.3 ,0.3 ,0.2 ,1.3 ,2.4 ,FC
- Tyler Johnson,3.0 ,2.2 ,1.3 ,0.7 ,0.4 ,1.8 ,8.7 ,G
- Tyler Zeller,3.0 ,0.5 ,0.8 ,0.2 ,0.4 ,1.6 ,6.1 ,FC
- Tyreke Evans,5.2 ,6.6 ,2.9 ,1.3 ,0.3 ,2.6 ,15.2 ,G
- Tyson Chandler,8.7 ,1.0 ,1.4 ,0.5 ,0.7 ,2.2 ,7.2 ,C
- Tyus Jones,1.3 ,2.9 ,0.9 ,0.8 ,0.1 ,0.9 ,4.2 ,PG
- Udonis Haslem,2.0 ,0.4 ,0.1 ,0.1 ,0.1 ,0.7 ,1.6 ,PF
- Victor Oladipo,4.8 ,3.9 ,2.1 ,1.6 ,0.8 ,2.4 ,16.0 ,G
- Vince Carter,2.4 ,0.9 ,0.6 ,0.6 ,0.3 ,1.7 ,6.6 ,GF
- Wayne Ellington,2.3 ,1.1 ,0.6 ,0.6 ,0.1 ,1.1 ,7.7 ,GF
- Wesley Johnson,3.1 ,0.6 ,0.7 ,1.1 ,0.7 ,2.2 ,6.9 ,GF
- Wesley Matthews,3.1 ,1.9 ,1.0 ,1.0 ,0.2 ,2.3 ,12.5 ,GF
- Will Barton,5.8 ,2.5 ,1.7 ,0.9 ,0.5 ,1.8 ,14.4 ,GF
- Willie Cauley-Stein,5.3 ,0.6 ,0.7 ,0.7 ,1.0 ,2.2 ,7.0 ,FC
- Willie Reed,3.1 ,0.3 ,0.4 ,0.2 ,0.8 ,1.2 ,4.7 ,FC
- Xavier Munford,2.2 ,1.6 ,1.1 ,0.9 ,0.2 ,1.8 ,5.7 ,SG
- Zach LaVine,2.8 ,3.1 ,1.9 ,0.8 ,0.2 ,2.4 ,14.0 ,G
- Zach Randolph,7.8 ,2.1 ,1.5 ,0.6 ,0.2 ,2.1 ,15.3 ,FC
- Zaza Pachulia,9.4 ,1.7 ,1.6 ,0.8 ,0.3 ,2.4 ,8.6 ,C
+Name,Rebounds,Assisst,Turnovers,Steals,Blocks,Personal Fouls,Points,Position,General Position
+Andrew Bogut,7,2.3,1.2,0.5,1.6,3.2,5.4,Center,Center
+Aron Baynes,4.7,0.6,0.8,0.3,0.6,1.9,6.3,Center,Center
+Boban Marjanovic,3.6,0.4,0.5,0.2,0.4,1,5.5,Center,Center
+Brook Lopez,7.8,2,2.4,0.8,1.7,2.9,20.6,Center,Center
+Cole Aldrich,4.8,0.8,1.1,0.8,1.1,2.3,5.5,Center,Center
+Cristiano Felicio,3.3,0.8,0.4,0.2,0.4,1,3.4,Center,Center
+DeAndre Jordan,13.8,1.2,1.4,0.7,2.3,2.7,12.7,Center,Center
+Dewayne Dedmon,3.9,0.2,0.6,0.4,0.8,1.9,4.4,Center,Center
+Edy Tavares,1.9,0.3,0.5,0.1,0.5,0.7,2.3,Center,Center
+Enes Kanter,8.1,0.4,1.4,0.3,0.4,2,12.7,Center,Center
+Festus Ezeli,5.6,0.7,0.8,0.4,1.1,2,7,Center,Center
+Hassan Whiteside,11.8,0.4,1.9,0.6,3.7,2.8,14.2,Center,Center
+Henry Sims,5.1,0.6,0.9,0.6,1,2.6,6.5,Center,Center
+Ian Mahinmi,7.1,1.5,1.4,0.9,1.1,3.1,9.3,Center,Center
+Jahlil Okafor,7,1.2,2.3,0.4,1.2,2.6,17.5,Center,Center
+JaVale McGee,3.9,0.1,0.6,0.1,0.8,1.4,5.1,Center,Center
+Jeff Withey,3.4,0.4,0.5,0.4,1,1.5,4.3,Center,Center
+Jonas Valanciunas,9.1,0.7,1.4,0.4,1.3,2.6,12.8,Center,Center
+Jusuf Nurkic,5.5,1.3,1.7,0.8,1.4,2.8,8.2,Center,Center
+Karl-Anthony Towns,10.5,2,2.2,0.7,1.7,3,18.3,Center,Center
+Kelly Olynyk,4.1,1.5,1.1,0.8,0.5,2.4,10,Center,Center
+Kendrick Perkins,3.5,0.8,1.1,0.3,0.3,1.7,2.5,Center,Center
+Lucas Nogueira,1.6,0.2,0.4,0.4,0.4,1,2.2,Center,Center
+Marc Gasol,7,3.8,2.3,1,1.3,2.7,16.6,Center,Center
+Marcin Gortat,9.9,1.4,1.6,0.6,1.3,2.6,13.5,Center,Center
+Nazr Mohammed,0.8,0,0.6,0,0,0.8,1.6,Center,Center
+Nikola Pekovic,1.8,0.9,0.8,0.1,0,1.8,4.5,Center,Center
+Robert Sacre,2.9,0.6,0.5,0.2,0.4,1.7,3.5,Center,Center
+Robin Lopez,7.3,1.4,1.6,0.2,1.6,2.2,10.3,Center,Center
+Roy Hibbert,4.9,1.2,0.9,0.4,1.4,3.1,5.9,Center,Center
+Rudy Gobert,11,1.5,1.9,0.7,2.2,2.7,9.1,Center,Center
+Ryan Hollins,2.6,0.3,0.6,0.2,0.6,1.7,3.4,Center,Center
+Salah Mejri,3.6,0.3,0.7,0.2,1.1,1.6,3.7,Center,Center
+Sasha Kaun,1,0.1,0.3,0.2,0.2,0.4,0.9,Center,Center
+Shayne Whittington,1.7,0.4,0.7,0.1,0.1,1,1.6,Center,Center
+Steven Adams,6.7,0.8,1.1,0.5,1.1,2.8,8,Center,Center
+Tiago Splitter,3.3,0.8,0.7,0.6,0.3,2,5.6,Center,Center
+Tibor Pleiss,1.3,0.2,0.7,0.1,0.2,1.6,2,Center,Center
+Timofey Mozgov,4.4,0.4,0.9,0.3,0.8,2.1,6.3,Center,Center
+Tyson Chandler,8.7,1,1.4,0.5,0.7,2.2,7.2,Center,Center
+Zaza Pachulia,9.4,1.7,1.6,0.8,0.3,2.4,8.6,Center,Center
+Aaron Gordon,6.5,1.6,0.8,0.8,0.7,2,9.2,Forward,Foward
+Al-Farouq Aminu,6.1,1.7,1.5,0.9,0.6,2.1,10.2,Forward,Foward
+Anthony Bennett,1.2,0,0.2,0.3,0,0.4,1.5,Forward,Foward
+Anthony Tolliver,3.2,0.7,0.4,0.4,0.2,1.2,5.3,Forward,Foward
+Branden Dawson,0.7,0,0,0,0.2,0.3,0.8,Forward,Foward
+Carl Landry,4.1,0.9,0.6,0.3,0.3,1.9,9.8,Forward,Foward
+Carmelo Anthony,7.7,4.2,2.4,0.9,0.5,2.5,21.8,Forward,Foward
+Chandler Parsons,4.7,2.8,1.6,0.8,0.3,1.9,13.7,Forward,Foward
+Chris Copeland,0.4,0.5,0.3,0.1,0,0.7,2.1,Forward,Foward
+Danilo Gallinari,5.3,2.5,1.5,0.8,0.4,1.6,19.5,Forward,Foward
+Dante Cunningham,3,1,0.5,0.5,0.4,2.2,6.1,Forward,Foward
+DeMarre Carroll,4.7,1,1.1,1.7,0.2,2.4,11,Forward,Foward
+Derrick Williams,3.7,0.9,0.8,0.4,0.1,0.9,9.3,Forward,Foward
+Donatas Motiejunas,2.9,1.1,1.2,0.5,0.1,1.9,6.2,Forward,Foward
+Draymond Green,9.5,7.4,3.2,1.5,1.4,3,14,Forward,Foward
+Ersan Ilyasova,5.4,0.9,1,0.7,0.4,2.3,10.4,Forward,Foward
+Harrison Barnes,4.9,1.8,0.9,0.6,0.2,2.1,11.7,Forward,Foward
+Jabari Parker,5.2,1.7,1.5,0.9,0.4,2,14.1,Forward,Foward
+Jae Crowder,5.1,1.8,1.1,1.7,0.5,2.7,14.2,Forward,Foward
+James Johnson,2.2,1.2,0.9,0.5,0.6,1.5,5,Forward,Foward
+Jared Dudley,3.5,2.1,1,0.9,0.2,2.3,7.9,Forward,Foward
+Jerami Grant,4.7,1.8,1.4,0.7,1.6,2.8,9.7,Forward,Foward
+Jeremy Evans,1.8,0.1,0.2,0.2,0.3,0.6,2.4,Forward,Foward
+Jonas Jerebko,3.7,0.8,0.7,0.3,0.3,1.8,4.4,Forward,Foward
+Josh Smith,3.5,1.6,1.4,0.6,0.9,2.1,6,Forward,Foward
+Justise Winslow,5.2,1.5,1.2,0.9,0.3,2.4,6.5,Forward,Foward
+Kevin Durant,8.2,5,3.5,1,1.2,1.9,28.2,Forward,Foward
+Kostas Papanikolaou,1.5,0.6,0.8,0.5,0.2,0.9,2.6,Forward,Foward
+LeBron James,7.4,6.8,3.3,1.4,0.6,1.9,25.3,Forward,Foward
+Luc Richard Mbah a Moute,2.3,0.4,0.5,0.6,0.3,1.3,3.1,Forward,Foward
+Luol Deng,6,1.9,1.1,1,0.4,1.6,12.3,Forward,Foward
+Marcus Morris,5.1,2.5,1.8,0.8,0.3,2.1,14.1,Forward,Foward
+Markieff Morris,5.5,1.9,2.1,0.9,0.5,2.9,12,Forward,Foward
+Marvin Williams,6.4,1.4,0.8,0.7,1,1.6,11.7,Forward,Foward
+Metta World Peace,2.5,0.8,0.4,0.6,0.3,1.9,5,Forward,Foward
+Michael Beasley,4.9,0.8,1.2,0.6,0.5,2,12.8,Forward,Foward
+Mirza Teletovic,3.8,1.1,1.1,0.4,0.3,2,12.2,Forward,Foward
+Nikola Mirotic,5.5,1.5,1.5,0.9,0.7,2.3,11.8,Forward,Foward
+Omri Casspi,5.9,1.4,1.4,0.8,0.2,2.2,11.8,Forward,Foward
+Paul George,7,4.1,3.3,1.9,0.4,2.8,23.1,Forward,Foward
+Paul Pierce,2.7,1,0.9,0.5,0.3,1.9,6.1,Forward,Foward
+Quincy Acy,3.2,0.5,0.5,0.5,0.4,1.7,5.2,Forward,Foward
+Robert Covington,6.3,1.4,2.1,1.6,0.6,3.5,12.8,Forward,Foward
+Rudy Gay,6.5,1.7,2,1.4,0.7,2.6,17.2,Forward,Foward
+Ryan Kelly,3.4,0.6,0.5,0.4,0.3,1.1,4.2,Forward,Foward
+Sam Dekker,0.3,0,0,0.3,0,0,0,Forward,Foward
+Steve Novak,0.5,0,0.1,0,0,0.3,2.4,Forward,Foward
+Tayshaun Prince,1.9,1,0.4,0.5,0.2,0.8,2.9,Forward,Foward
+Terrence Jones,4.2,0.8,1,0.5,0.8,1.7,8.7,Forward,Foward
+Thaddeus Young,9,1.9,1.9,1.5,0.5,2.5,15.1,Forward,Foward
+Tobias Harris,6.7,2.2,1.4,0.9,0.5,2,14.7,Forward,Foward
+Al Horford,7.3,3.2,1.3,0.8,1.5,2,15.2,Forward Center,Foward
+Al Jefferson,6.4,1.5,0.7,0.6,0.9,2.5,12,Forward Center,Foward
+Alex Len,7.6,1.2,1.9,0.5,0.8,2.9,9,Forward Center,Foward
+Alexis Ajinca,4.6,0.5,0.9,0.3,0.6,2.3,6,Forward Center,Foward
+Amar'e Stoudemire,4.3,0.5,0.9,0.4,0.8,1.8,5.8,Forward Center,Foward
+Amir Johnson,6.4,1.7,1.2,0.7,1.1,2.7,7.3,Forward Center,Foward
+Anderson Varejao,2.7,0.7,0.4,0.3,0.2,1.3,2.6,Forward Center,Foward
+Andre Drummond,14.8,0.8,1.9,1.5,1.4,3,16.2,Forward Center,Foward
+Andrea Bargnani,2.1,0.4,0.6,0.1,0.2,1.3,6.6,Forward Center,Foward
+Anthony Davis,10.3,1.9,2,1.3,2,2.4,24.3,Forward Center,Foward
+Bismack Biyombo,8,0.4,0.9,0.2,1.6,2.7,5.5,Forward Center,Foward
+Blake Griffin,8.4,4.9,2.4,0.8,0.5,2.7,21.4,Forward Center,Foward
+Bobby Portis,5.4,0.8,0.9,0.4,0.4,1.6,7,Forward Center,Foward
+Boris Diaw,3.1,2.3,1.3,0.3,0.3,1.3,6.4,Forward Center,Foward
+Brandan Wright,3.6,0.5,0.8,0.4,1.3,1.8,6.9,Forward Center,Foward
+Brandon Bass,4.3,1.1,0.6,0.5,0.8,1.9,7.2,Forward Center,Foward
+Cameron Bairstow,1.6,0.3,0.2,0.1,0.2,1.1,1.9,Forward Center,Foward
+Channing Frye,3.3,1,0.6,0.4,0.4,1.8,6,Forward Center,Foward
+Chris Andersen,3.6,0.4,0.3,0.6,0.5,1.1,3.9,Forward Center,Foward
+Chris Bosh,7.4,2.4,1.5,0.7,0.6,1.9,19.1,Forward Center,Foward
+Chris Kaman,1.5,0.7,0.5,0.1,0.1,0.9,2.8,Forward Center,Foward
+Christian Wood,2.2,0.2,0.1,0.3,0.4,0.6,3.6,Forward Center,Foward
+Chuck Hayes,4,1,1.5,0,0,3,2,Forward Center,Foward
+Clint Capela,6.4,0.6,0.8,0.8,1.2,2.5,7,Forward Center,Foward
+Cody Zeller,6.2,1,0.9,0.8,0.9,2.8,8.7,Forward Center,Foward
+Darrell Arthur,4.2,1.4,0.9,0.8,0.7,2.6,7.5,Forward Center,Foward
+David Lee,5.5,1.5,1.2,0.4,0.5,2.1,7.8,Forward Center,Foward
+DeJuan Blair,2,0.4,0.5,0.3,0.1,1.8,2.1,Forward Center,Foward
+DeMarcus Cousins,11.5,3.3,3.8,1.6,1.4,3.6,26.9,Forward Center,Foward
+Derrick Favors,8.1,1.5,1.7,1.2,1.5,2.4,16.4,Forward Center,Foward
+Dirk Nowitzki,6.5,1.8,1.1,0.7,0.7,2.1,18.3,Forward Center,Foward
+Drew Gooden,2.8,0.4,0.4,0.3,0.4,1.3,2.7,Forward Center,Foward
+Dwight Howard,11.8,1.4,2.3,1,1.6,3.1,13.7,Forward Center,Foward
+Dwight Powell,4,0.6,0.6,0.5,0.3,1.7,5.8,Forward Center,Foward
+Ed Davis,7.4,1.1,0.8,0.7,0.9,2.5,6.5,Forward Center,Foward
+Elton Brand,3.7,1.1,0.6,0.5,0.5,1.9,4.1,Forward Center,Foward
+Frank Kaminsky,4.1,1.2,0.7,0.5,0.5,1.6,7.5,Forward Center,Foward
+Gorgui Dieng,7.1,1.7,1.7,1.1,1.2,2.7,10.1,Forward Center,Foward
+Greg Monroe,8.8,2.3,1.6,0.9,0.8,2.1,15.3,Forward Center,Foward
+Greg Smith,2.3,0.3,0.4,0.2,0.1,1.6,2.4,Forward Center,Foward
+J.J. Hickson,3.8,0.7,0.7,0.4,0.4,1.3,5.9,Forward Center,Foward
+Jared Sullinger,8.3,2.3,1.3,0.9,0.6,2.6,10.3,Forward Center,Foward
+Jarell Martin,3.2,0.6,0.7,0.3,0.3,2.1,5.7,Forward Center,Foward
+Jason Smith,2.9,0.8,0.8,0.4,0.9,2.1,7.2,Forward Center,Foward
+Jason Thompson,2.9,0.6,0.3,0.3,0.4,1.7,3.1,Forward Center,Foward
+Jeff Ayres,1.3,0.3,0.4,0,0.2,1.1,1.8,Forward Center,Foward
+Joakim Noah,8.8,3.8,1.8,0.6,1,2.7,4.3,Forward Center,Foward
+Joel Anthony,1.1,0.1,0.1,0.1,0.6,0.8,0.9,Forward Center,Foward
+Joffrey Lauvergne,4.9,0.9,0.9,0.2,0.3,1.9,7.9,Forward Center,Foward
+John Henson,3.9,0.9,1.1,0.3,1.9,2.3,7,Forward Center,Foward
+Jon Leuer,5.6,1.1,1.1,0.6,0.4,1.9,8.5,Forward Center,Foward
+Jordan Hill,6.2,1.2,1.3,0.5,0.5,2.1,8.8,Forward Center,Foward
+Josh McRoberts,2.5,1.9,0.7,0.4,0.2,1.6,3.6,Forward Center,Foward
+Kenneth Faried,8.7,1.2,1.4,0.5,0.9,2.5,12.5,Forward Center,Foward
+Kevin Garnett,3.9,1.6,0.4,0.7,0.3,1.8,3.2,Forward Center,Foward
+Kevin Love,9.9,2.4,1.8,0.8,0.5,2.1,16,Forward Center,Foward
+Kevin Seraphin,2.6,1,0.9,0.2,0.8,1.4,3.9,Forward Center,Foward
+Kosta Koufos,5.4,0.4,0.6,0.5,0.9,2.4,6.8,Forward Center,Foward
+Kris Humphries,4.1,0.7,0.7,0.3,0.4,1.8,6.5,Forward Center,Foward
+Kristaps Porzingis,7.3,1.3,1.7,0.7,1.9,2.8,14.3,Forward Center,Foward
+Kyle O'Quinn,3.8,1.1,0.9,0.3,0.8,1.6,4.8,Forward Center,Foward
+LaMarcus Aldridge,8.5,1.5,1.3,0.5,1.1,2,18,Forward Center,Foward
+Lavoy Allen,5.4,1,0.9,0.3,0.5,1.9,5.4,Forward Center,Foward
+Luis Scola,4.7,0.9,0.9,0.6,0.4,2.3,8.7,Forward Center,Foward
+Marreese Speights,3.3,0.8,0.9,0.3,0.5,1.6,7.1,Forward Center,Foward
+Mason Plumlee,7.7,2.8,1.9,0.8,1,3.1,9.1,Forward Center,Foward
+Matt Bonner,0.9,0.3,0.1,0.2,0,0.5,2.5,Forward Center,Foward
+Meyers Leonard,5.1,1.5,1.3,0.1,0.3,3,8.4,Forward Center,Foward
+Mike Muscala,2,0.6,0.5,0.2,0.5,1.2,3.3,Forward Center,Foward
+Miles Plumlee,3.8,0.3,0.7,0.3,0.8,1.2,5.1,Forward Center,Foward
+Mitch McGary,0.9,0.2,0.4,0.1,0.1,0.5,1.3,Forward Center,Foward
+Myles Turner,5.5,0.7,1.1,0.4,1.4,2.6,10.3,Forward Center,Foward
+Nene Hilario,4.5,1.7,1.3,0.9,0.5,2.7,9.2,Forward Center,Foward
+Nerlens Noel,8.1,1.8,2.4,1.8,1.5,2.9,11.1,Forward Center,Foward
+Nick Collison,2.9,0.9,0.8,0.3,0.3,1.8,2.1,Forward Center,Foward
+Nikola Jokic,7,2.4,1.3,1,0.6,2.6,10,Forward Center,Foward
+Nikola Vucevic,8.9,2.8,1.9,0.8,1.1,2.7,18.2,Forward Center,Foward
+Omer Asik,6.1,0.4,0.9,0.3,0.3,1.8,4,Forward Center,Foward
+Patrick Patterson,4.3,1.2,0.8,0.7,0.4,1.6,6.9,Forward Center,Foward
+Pau Gasol,11,4.1,2.3,0.6,2,2.1,16.5,Forward Center,Foward
+Paul Millsap,9,3.3,2.4,1.8,1.7,2.9,17.1,Forward Center,Foward
+Richaun Holmes,2.6,0.6,0.6,0.4,0.8,1.8,5.6,Forward Center,Foward
+Ryan Anderson,6,1.1,1.4,0.6,0.4,1.7,17,Forward Center,Foward
+Serge Ibaka,6.8,0.8,1.4,0.5,1.9,2.7,12.6,Forward Center,Foward
+Spencer Hawes,4.3,1.9,1,0.4,0.5,1.9,6,Forward Center,Foward
+Taj Gibson,6.9,1.5,1.1,0.6,1.1,2.5,8.6,Forward Center,Foward
+Tarik Black,4,0.4,0.6,0.4,0.5,2,3.4,Forward Center,Foward
+Thomas Robinson,5.1,0.6,1,0.5,0.5,1.6,4.3,Forward Center,Foward
+Tim Duncan,7.3,2.7,1.5,0.8,1.3,2,8.6,Forward Center,Foward
+Tristan Thompson,9,0.8,0.7,0.5,0.6,2.5,7.8,Forward Center,Foward
+Tyler Hansbrough,2,0.2,0.3,0.3,0.2,1.3,2.4,Forward Center,Foward
+Tyler Zeller,3,0.5,0.8,0.2,0.4,1.6,6.1,Forward Center,Foward
+Willie Cauley-Stein,5.3,0.6,0.7,0.7,1,2.2,7,Forward Center,Foward
+Willie Reed,3.1,0.3,0.4,0.2,0.8,1.2,4.7,Forward Center,Foward
+Zach Randolph,7.8,2.1,1.5,0.6,0.2,2.1,15.3,Forward Center,Foward
+Alec Burks,3.5,2,1.6,0.6,0.1,2.3,13.3,Guard,Guard
+Allen Crabbe,2.7,1.2,0.8,0.8,0.2,2.4,10.3,Guard,Guard
+Andre Miller,1.3,2.2,0.9,0.4,0,1.2,3.7,Guard,Guard
+Andrew Goudelock,0.3,0.5,0.9,0.8,0.3,0.5,2.8,Guard,Guard
+Archie Goodwin,2.5,2.1,1.8,0.5,0.2,1.5,8.9,Guard,Guard
+Austin Rivers,1.9,1.5,0.9,0.7,0.1,2,8.9,Guard,Guard
+Avery Bradley,2.9,2.1,1.4,1.5,0.3,2.2,15.2,Guard,Guard
+Brandon Knight,3.9,5.1,3.4,1.2,0.4,2.4,19.6,Guard,Guard
+Brian Roberts,0.8,1.1,0.5,0.2,0,0.7,4,Guard,Guard
+Bryce Dejean-Jones,3.4,1.1,0.8,0.7,0.1,1.2,5.6,Guard,Guard
+C.J. McCollum,3.2,4.3,2.5,1.2,0.3,2.3,20.8,Guard,Guard
+Devin Harris,2.2,1.8,1,0.9,0.2,1.9,7.6,Guard,Guard
+Donald Sloan,2.8,4.4,1.3,0.5,0.1,1.2,7,Guard,Guard
+Dwyane Wade,4.1,4.6,2.7,1.1,0.6,1.6,19,Guard,Guard
+E'Twaun Moore,2.3,1.7,0.9,0.6,0.3,1.7,7.5,Guard,Guard
+Eric Bledsoe,4,6.1,3.5,2,0.6,2.4,20.4,Guard,Guard
+Erick Green,0.7,0.3,0,0.1,0,0.4,1.4,Guard,Guard
+Garrett Temple,2.7,1.8,0.8,0.9,0.2,2.4,7.3,Guard,Guard
+Gary Neal,2.1,1.2,0.7,0.5,0,1.4,9.8,Guard,Guard
+George Hill,4,3.5,1.4,1.1,0.2,2,12.1,Guard,Guard
+Goran Dragic,3.8,5.8,2.6,1,0.2,2.6,14.1,Guard,Guard
+Greivis Vasquez,2,4,1.7,0.4,0,1.8,5.7,Guard,Guard
+Ian Clark,1,1,0.7,0.3,0.2,0.9,3.6,Guard,Guard
+J.J. Barea,2.1,4.1,1.5,0.4,0,1.5,10.9,Guard,Guard
+James Harden,6.1,7.5,4.6,1.7,0.6,2.8,29,Guard,Guard
+Jared Cunningham,0.9,0.5,0.5,0.3,0,0.9,2.7,Guard,Guard
+Jarrett Jack,4.3,7.4,2.9,1.1,0.2,2.4,12.8,Guard,Guard
+Jason Terry,1.1,1.4,0.7,0.7,0.1,1.3,5.9,Guard,Guard
+Jeremy Lin,3.2,3,1.9,0.7,0.5,2.1,11.7,Guard,Guard
+Jerian Grant,1.9,2.3,1.1,0.7,0.1,1.3,5.6,Guard,Guard
+Jerryd Bayless,2.7,3.1,1.4,0.9,0.2,2.1,10.4,Guard,Guard
+Jimmer Fredette,0,0.2,0.3,0.2,0,0.3,1.5,Guard,Guard
+Joe Young,1.2,1.6,0.8,0.4,0,0.7,3.8,Guard,Guard
+Jordan Clarkson,4,2.4,1.7,1.1,0.1,2.1,15.5,Guard,Guard
+Jordan McRae,0.9,1.1,0.7,0.1,0,0.8,4.5,Guard,Guard
+Kirk Hinrich,1.5,1.6,0.7,0.3,0,1.4,3,Guard,Guard
+Kyrie Irving,3,4.7,2.3,1.1,0.3,2,19.6,Guard,Guard
+Langston Galloway,3.5,2.5,0.7,0.9,0.3,2.2,7.6,Guard,Guard
+Leandro Barbosa,1.7,1.2,0.8,0.6,0.1,1.6,6.4,Guard,Guard
+Lou Williams,2.5,2.5,1.6,0.9,0.3,1.6,15.3,Guard,Guard
+Mario Chalmers,2.6,3.8,1.8,1.4,0.2,3,10.3,Guard,Guard
+Matthew Dellavedova,2.1,4.4,1.5,0.6,0.1,2.3,7.5,Guard,Guard
+Mo Williams,1.8,2.4,1.4,0.3,0.1,1.5,8.2,Guard,Guard
+Monta Ellis,3.3,4.7,2.5,1.9,0.5,2.1,13.8,Guard,Guard
+Nate Robinson,0,2,0,0.5,0,2.5,0,Guard,Guard
+Norris Cole,3.4,3.7,1.7,0.8,0.1,2.3,10.6,Guard,Guard
+O.J. Mayo,2.6,2.9,1.8,1.2,0.2,3.1,7.8,Guard,Guard
+Pablo Prigioni,1.9,2.2,0.8,0.9,0,1.4,2.5,Guard,Guard
+Patrick Beverley,3.5,3.4,1.3,1.3,0.4,3.3,9.9,Guard,Guard
+Ramon Sessions,2.5,2.9,1.4,0.6,0.1,1.2,9.9,Guard,Guard
+Randy Foye,1.9,2,1.1,0.5,0.4,1.6,5.9,Guard,Guard
+Raymond Felton,3.2,3.6,1.5,0.9,0.2,1.8,9.5,Guard,Guard
+Reggie Jackson,3.2,6.2,2.8,0.7,0.1,2.4,18.8,Guard,Guard
+Rodney Stuckey,2.7,2.4,1.3,0.7,0.1,1.3,8.9,Guard,Guard
+Ronnie Price,1.6,2.4,1.1,1.2,0.2,2.6,5.3,Guard,Guard
+Sean Kilpatrick,1.8,0.9,1,0.4,0.1,1.2,11.1,Guard,Guard
+Seth Curry,1.4,1.5,0.8,0.5,0.1,0.9,6.8,Guard,Guard
+Shaun Livingston,2.2,3,1,0.7,0.3,1.8,6.3,Guard,Guard
+Stephen Curry,5.4,6.7,3.3,2.1,0.2,2,30.1,Guard,Guard
+Steve Blake,1.5,3.4,1.4,0.4,0.1,1.2,4.4,Guard,Guard
+Tim Frazier,2.2,3.2,1.3,0.6,0,1.4,5.1,Guard,Guard
+Toney Douglas,2.3,2.6,1,1.1,0.1,2.1,8.7,Guard,Guard
+Tony Wroten,2.6,2.5,3.6,0.4,0,1.4,8.4,Guard,Guard
+Troy Daniels,1.3,0.5,0.6,0.3,0.1,0.9,5.6,Guard,Guard
+Tyler Johnson,3,2.2,1.3,0.7,0.4,1.8,8.7,Guard,Guard
+Tyreke Evans,5.2,6.6,2.9,1.3,0.3,2.6,15.2,Guard,Guard
+Victor Oladipo,4.8,3.9,2.1,1.6,0.8,2.4,16,Guard,Guard
+Zach LaVine,2.8,3.1,1.9,0.8,0.2,2.4,14,Guard,Guard
+Alan Anderson,2.1,1.1,0.2,0.3,0.1,1.9,5,Guard Forward,Guard
+Alonzo Gee,3.4,1,0.8,0.9,0.2,2.3,4.5,Guard Forward,Guard
+Andre Iguodala,4,3.4,1.2,1.1,0.3,1.6,7,Guard Forward,Guard
+Andre Roberson,3.6,0.7,0.5,0.8,0.6,1.9,4.8,Guard Forward,Guard
+Andrew Wiggins,3.6,2,2.2,1,0.6,2,20.7,Guard Forward,Guard
+Anthony Morrow,0.9,0.4,0.3,0.3,0.1,0.9,5.6,Guard Forward,Guard
+Arron Afflalo,3.7,2,1.2,0.4,0.1,2,12.8,Guard Forward,Guard
+Axel Toupane,1.5,0.7,0.3,0.3,0.3,1.9,3.6,Guard Forward,Guard
+Bojan Bogdanovic,3.2,1.3,1.5,0.4,0.1,1.5,11.2,Guard Forward,Guard
+Brandon Rush,2.5,0.8,0.5,0.3,0.3,0.8,4.2,Guard Forward,Guard
+C.J. Miles,2.7,1,1.1,0.8,0.5,2.2,11.8,Guard Forward,Guard
+Chase Budinger,2.3,1,0.7,0.5,0.2,0.9,4.1,Guard Forward,Guard
+Chris Johnson,1.9,0.6,0.6,0.5,0.3,1.4,2.9,Guard Forward,Guard
+Corey Brewer,2.4,1.3,1,1,0.2,2,7.2,Guard Forward,Guard
+Courtney Lee,2.6,1.7,0.9,1.1,0.4,1.7,9.6,Guard Forward,Guard
+Dahntay Jones,5,2,0,1,2,6,13,Guard Forward,Guard
+Damjan Rudez,0.6,0.3,0.4,0.1,0,1,2.3,Guard Forward,Guard
+Danny Green,3.8,1.8,0.9,1,0.8,1.8,7.2,Guard Forward,Guard
+DeMar DeRozan,4.5,4,2.2,1,0.3,2.1,23.5,Guard Forward,Guard
+Devyn Marble,1.4,0.4,0.3,0.5,0,0.9,2.1,Guard Forward,Guard
+Dion Waiters,2.6,2,1.5,1,0.2,1.8,9.8,Guard Forward,Guard
+Elijah Millsap,1.8,1,0.5,0.4,0.2,1.7,1.8,Guard Forward,Guard
+Evan Fournier,2.8,2.7,1.7,1.2,0,2.7,15.4,Guard Forward,Guard
+Evan Turner,4.9,4.4,2.1,1,0.3,1.7,10.5,Guard Forward,Guard
+Gary Harris,2.9,1.9,1.3,1.3,0.2,1.9,12.3,Guard Forward,Guard
+Gerald Green,2.4,0.8,0.7,0.5,0.3,1.8,8.9,Guard Forward,Guard
+Gerald Henderson,2.9,1,0.9,0.5,0.3,1.2,8.7,Guard Forward,Guard
+Glenn Robinson III,1.5,0.6,0.4,0.4,0.2,0.5,3.8,Guard Forward,Guard
+Gordon Hayward,5,3.7,2.5,1.2,0.3,2.3,19.7,Guard Forward,Guard
+Hollis Thompson,3.5,1.3,1,0.5,0.3,2.4,9.8,Guard Forward,Guard
+Iman Shumpert,3.8,1.7,1.1,1,0.4,2.2,5.8,Guard Forward,Guard
+J.R. Smith,2.8,1.7,0.8,1.1,0.3,2.6,12.4,Guard Forward,Guard
+Jakarr Sampson,2.6,0.6,1,0.3,0.5,1.9,5.1,Guard Forward,Guard
+Jamal Crawford,1.8,2.3,1.4,0.7,0.2,1.5,14.2,Guard Forward,Guard
+James Anderson,1.7,0.8,0.8,0.4,0.3,1.1,3.5,Guard Forward,Guard
+James Ennis III,1.9,1,0.9,0.7,0.2,1.3,7.2,Guard Forward,Guard
+James Jones,1,0.3,0.3,0.2,0.2,1,3.8,Guard Forward,Guard
+Jeff Green,4.2,1.7,1.2,0.7,0.5,2.1,11.7,Guard Forward,Guard
+Jeremy Lamb,3.8,1.2,0.8,0.6,0.5,1.6,8.8,Guard Forward,Guard
+Jimmy Butler,5.3,4.8,2,1.6,0.6,1.9,20.9,Guard Forward,Guard
+Joe Ingles,1.9,1.2,0.8,0.7,0,1.2,4.2,Guard Forward,Guard
+Joe Johnson,3.6,3.9,2,0.8,0,1.8,12.2,Guard Forward,Guard
+John Jenkins,1.3,0.8,0.6,0.2,0,0.5,4.1,Guard Forward,Guard
+Jonathon Simmons,1.7,1.1,1,0.4,0.1,1.9,6,Guard Forward,Guard
+Justin Holiday,1.7,1.1,0.7,0.6,0.4,1.2,4.5,Guard Forward,Guard
+Kawhi Leonard,6.8,2.6,1.5,1.8,1,1.8,21.2,Guard Forward,Guard
+Kent Bazemore,5.1,2.3,1.8,1.3,0.5,2.3,11.6,Guard Forward,Guard
+Kevin Martin,2,1.1,1,0.5,0.1,1.5,9.3,Guard Forward,Guard
+Khris Middleton,3.8,4.2,2.3,1.7,0.2,2.6,18.2,Guard Forward,Guard
+Klay Thompson,3.8,2.1,1.7,0.8,0.6,1.9,22.1,Guard Forward,Guard
+Kobe Bryant,3.7,2.8,2,0.9,0.2,1.7,17.6,Guard Forward,Guard
+Kyle Anderson,3.1,1.6,0.8,0.8,0.4,1.2,4.5,Guard Forward,Guard
+Kyle Korver,3.3,2.1,1.2,0.8,0.4,2,9.2,Guard Forward,Guard
+Kyle Singler,2.1,0.4,0.5,0.4,0.1,1.8,3.4,Guard Forward,Guard
+Lance Stephenson,3.2,1.9,1.4,0.6,0.1,2,8.3,Guard Forward,Guard
+Lance Thomas,2.2,0.9,1,0.4,0.1,1.8,8.2,Guard Forward,Guard
+Manu Ginobili,2.5,3.1,1.7,1.1,0.2,1.7,9.6,Guard Forward,Guard
+Marco Belinelli,1.7,1.9,1.2,0.5,0,1.3,10.2,Guard Forward,Guard
+Marcus Thornton,2.5,1.4,0.8,0.8,0.1,1.5,9.7,Guard Forward,Guard
+Matt Barnes,5.5,2.1,1.6,1,0.8,3.1,10,Guard Forward,Guard
+Mike Dunleavy,2.7,1.3,0.8,0.5,0.3,2.1,7.2,Guard Forward,Guard
+Mike Miller,1.1,0.9,0.4,0.3,0.1,1.1,1.3,Guard Forward,Guard
+Nick Young,1.8,0.6,0.6,0.4,0.1,0.9,7.3,Guard Forward,Guard
+Nicolas Batum,6.1,5.8,2.9,0.9,0.6,1.6,14.9,Guard Forward,Guard
+Nik Stauskas,2.5,1.9,1.3,0.6,0.3,1.6,8.5,Guard Forward,Guard
+Norman Powell,2.3,1,0.7,0.6,0.2,1.2,5.6,Guard Forward,Guard
+Orlando Johnson,2.1,0.3,0.6,0.4,0.4,1.3,3.7,Guard Forward,Guard
+P.J. Hairston,2.6,0.6,0.6,0.5,0.2,2.1,6.2,Guard Forward,Guard
+P.J. Tucker,6.2,2.2,1.4,1.3,0.2,2.5,8,Guard Forward,Guard
+Pat Connaughton,0.9,0.3,0.3,0.1,0,0.2,1.1,Guard Forward,Guard
+Rashad Vaughn,1.3,0.6,0.4,0.4,0.2,1,3.1,Guard Forward,Guard
+Rasual Butler,1.2,0.5,0.2,0.3,0.5,0.2,2.7,Guard Forward,Guard
+Reggie Bullock,1.8,0.7,0.2,0.3,0.1,0.8,3.3,Guard Forward,Guard
+Richard Jefferson,1.7,0.8,0.6,0.4,0.2,1.7,5.5,Guard Forward,Guard
+Rodney Hood,3.4,2.7,1.6,0.9,0.2,2.6,14.5,Guard Forward,Guard
+Rondae Hollis-Jefferson,5.3,1.5,0.9,1.3,0.6,2.1,5.8,Guard Forward,Guard
+Sergey Karasev,1.5,0.9,0.6,0.2,0.1,0.7,2.4,Guard Forward,Guard
+Shabazz Muhammad,3.3,0.6,0.9,0.3,0.1,1.1,10.5,Guard Forward,Guard
+Solomon Hill,2.8,1,0.6,0.6,0.2,1.2,4.2,Guard Forward,Guard
+Sonny Weems,1.2,1.1,1,0.2,0,1.1,2.5,Guard Forward,Guard
+Stanley Johnson,4.2,1.6,1.6,0.8,0.2,2.4,8.1,Guard Forward,Guard
+Terrence Ross,2.5,0.8,0.6,0.7,0.3,1.6,9.9,Guard Forward,Guard
+Thabo Sefolosha,4.5,1.4,0.9,1.1,0.5,1.5,6.4,Guard Forward,Guard
+Tim Hardaway Jr.,1.7,1,0.5,0.4,0.1,0.9,6.4,Guard Forward,Guard
+Tony Allen,4.6,1.1,1.2,1.7,0.3,2.7,8.4,Guard Forward,Guard
+Tony Snell,3.1,1,0.8,0.3,0.3,1.6,5.3,Guard Forward,Guard
+Trevor Ariza,4.5,2.3,1.4,2,0.3,2.2,12.7,Guard Forward,Guard
+Vince Carter,2.4,0.9,0.6,0.6,0.3,1.7,6.6,Guard Forward,Guard
+Wayne Ellington,2.3,1.1,0.6,0.6,0.1,1.1,7.7,Guard Forward,Guard
+Wesley Johnson,3.1,0.6,0.7,1.1,0.7,2.2,6.9,Guard Forward,Guard
+Wesley Matthews,3.1,1.9,1,1,0.2,2.3,12.5,Guard Forward,Guard
+Will Barton,5.8,2.5,1.7,0.9,0.5,1.8,14.4,Guard Forward,Guard
+Aaron Brooks,1.5,2.6,1.2,0.4,0.1,1.9,7.1,Point Guard,Guard
+Aaron Harrison,0.7,0.1,0.2,0.3,0,0.5,0.9,Point Guard,Guard
+Adreian Payne,2.1,0.6,0.7,0.3,0.2,1.5,2.5,Point Guard,Guard
+Alan Williams,3.8,0.5,0.6,0.4,0.5,1.5,2.9,Point Guard,Guard
+Andrew Nicholson,3.6,0.4,0.7,0.2,0.4,1.2,6.9,Point Guard,Guard
+Beno Udrih,1.6,2.6,1.2,0.3,0,1.2,4.7,Point Guard,Guard
+Brandon Jennings,2,3.5,1.2,0.6,0.1,1.2,6.9,Point Guard,Guard
+Briante Weber,3.6,3,1.3,1.3,0.4,1.7,4.4,Point Guard,Guard
+Bryce Cotton,0,0.4,0.6,0.4,0,0.3,1,Point Guard,Guard
+C.J. Watson,2,2.7,0.8,0.6,0.2,1.5,4.3,Point Guard,Guard
+Cameron Payne,1.5,1.9,0.8,0.6,0.1,1.4,5,Point Guard,Guard
+Charlie Villanueva,2.5,0.4,0.5,0.3,0.2,1.1,5.1,Point Guard,Guard
+Chris McCullough,2.8,0.4,0.6,1.2,0.5,1.6,4.7,Point Guard,Guard
+Chris Paul,4.2,10,2.6,2.1,0.2,2.5,19.5,Point Guard,Guard
+Cliff Alexander,0.8,0,0.1,0.1,0.3,0.1,1.3,Point Guard,Guard
+Cory Jefferson,2,0,0,0,0.1,1,2.8,Point Guard,Guard
+Cory Joseph,2.6,3.1,1.3,0.8,0.3,1.6,8.5,Point Guard,Guard
+D.J. Augustin,1.5,3.2,1.4,0.6,0.1,1.4,7.5,Point Guard,Guard
+D'Angelo Russell,3.4,3.3,2.5,1.2,0.2,1.8,13.2,Point Guard,Guard
+Damian Lillard,4,6.8,3.2,0.9,0.4,2.2,25.1,Point Guard,Guard
+Darren Collison,2.3,4.3,1.8,1,0.1,1.9,14,Point Guard,Guard
+David West,4,1.8,0.9,0.6,0.7,1.8,7.1,Point Guard,Guard
+Delon Wright,1.4,1.1,0.6,0.3,0.1,0.3,3.8,Point Guard,Guard
+Dennis Schroder,2.6,4.4,2.3,0.9,0.1,1.7,11,Point Guard,Guard
+Deron Williams,2.9,5.8,2.3,0.9,0.2,2.4,14.1,Point Guard,Guard
+Derrick Rose,3.4,4.7,2.7,0.7,0.2,1.3,16.4,Point Guard,Guard
+Elfrid Payton,3.6,6.4,2.4,1.2,0.3,2.2,10.7,Point Guard,Guard
+Emmanuel Mudiay,3.4,5.5,3.2,1,0.5,2.1,12.8,Point Guard,Guard
+Eric Moreland,1.4,0.1,0.4,0,0.5,0.5,1,Point Guard,Guard
+Isaiah Canaan,2.3,1.8,1.2,0.7,0.2,1.7,11,Point Guard,Guard
+Isaiah Thomas,3,6.2,2.7,1.1,0.1,2,22.2,Point Guard,Guard
+Ish Smith,4,6.5,2.3,1.1,0.3,1.7,12.6,Point Guard,Guard
+Jameer Nelson,2.9,4.9,1.7,0.6,0.1,2.6,7.7,Point Guard,Guard
+James Michael McAdoo,1.4,0.4,0.4,0.2,0.2,1,2.9,Point Guard,Guard
+JaMychal Green,4.8,0.9,1.1,0.6,0.4,2.4,7.4,Point Guard,Guard
+Jarnell Stokes,0.6,0.1,0,0.1,0,0.1,1,Point Guard,Guard
+Jeff Teague,2.7,5.9,2.8,1.2,0.3,2.1,15.7,Point Guard,Guard
+John Wall,4.9,10.2,4.1,1.9,0.8,2.1,19.9,Point Guard,Guard
+Johnny O'Bryant,2.7,0.5,0.5,0.3,0.1,1.5,3,Point Guard,Guard
+Jordan Farmar,2.1,3.1,1.5,1.3,0.2,1.8,9.2,Point Guard,Guard
+Jordan Mickey,0.8,0.1,0.1,0,0.7,0.3,1.3,Point Guard,Guard
+Jorge Gutierrez,0.6,1.4,0.5,0.3,0,0.3,1.8,Point Guard,Guard
+Jose Calderon,3.2,4.1,1.2,0.9,0.1,1.9,7.6,Point Guard,Guard
+Jrue Holiday,3,6,2.6,1.4,0.3,2.3,16.8,Point Guard,Guard
+Julius Randle,10.2,1.8,1.8,0.7,0.4,3,11.3,Point Guard,Guard
+Justin Harper,0.2,0,0.4,0.2,0,0.6,2.6,Point Guard,Guard
+Keith Appling,0.2,0.2,0.6,0.2,0,1,1.2,Point Guard,Guard
+Kemba Walker,4.4,5.2,2.1,1.6,0.5,1.4,20.9,Point Guard,Guard
+Kendall Marshall,0.9,2.4,1.4,0.5,0.1,1,3.7,Point Guard,Guard
+Kevon Looney,2,0,0.2,0,0,0.4,1.8,Point Guard,Guard
+Kyle Lowry,4.7,6.4,2.9,2.1,0.4,2.7,21.2,Point Guard,Guard
+Larry Nance Jr.,5,0.7,0.7,0.9,0.4,2,5.5,Point Guard,Guard
+Lorenzo Brown,0.9,1.4,1.1,0.4,0.1,0.5,2.5,Point Guard,Guard
+Louis Amundson,1.7,0.4,0.5,0.2,0.2,1.5,1.8,Point Guard,Guard
+Marcelo Huertas,1.7,3.4,1.5,0.5,0.1,1.4,4.5,Point Guard,Guard
+Marcus Smart,4.2,3,1.3,1.5,0.3,3,9.1,Point Guard,Guard
+Michael Carter-Williams,5.1,5.2,2.8,1.5,0.8,3,11.5,Point Guard,Guard
+Mike Conley,2.9,6.1,1.5,1.2,0.3,1.8,15.3,Point Guard,Guard
+Mike Scott,2.7,1,0.6,0.3,0.2,1.4,6.2,Point Guard,Guard
+Montrezl Harrell,1.7,0.4,0.4,0.3,0.3,1.2,3.6,Point Guard,Guard
+Nemanja Bjelica,3.5,1.4,0.8,0.4,0.4,2.6,5.1,Point Guard,Guard
+Noah Vonleh,3.9,0.4,0.6,0.3,0.3,1.9,3.6,Point Guard,Guard
+Patty Mills,2,2.8,0.9,0.7,0.1,1.3,8.5,Point Guard,Guard
+Phil Pressey,1.3,3.3,1.4,0.8,0.2,1.2,3.3,Point Guard,Guard
+Rajon Rondo,6,11.7,3.9,2,0.1,2.4,11.9,Point Guard,Guard
+Rakeem Christmas,1,0,0,0,0,1,4,Point Guard,Guard
+Raul Neto,1.5,2.1,1.3,0.8,0,1.5,5.9,Point Guard,Guard
+Ray McCallum,1.1,1.5,0.6,0.3,0.2,0.7,3.3,Point Guard,Guard
+Ricky Rubio,4.3,8.6,2.5,2.1,0.1,2.6,10.1,Point Guard,Guard
+Russ Smith,0.6,0.7,0.5,0.3,0.1,0.3,1.5,Point Guard,Guard
+Russell Westbrook,7.8,10.4,4.3,2,0.3,2.5,23.5,Point Guard,Guard
+Shabazz Napier,1,1.8,0.8,0.4,0,0.7,3.7,Point Guard,Guard
+Shane Larkin,2.3,4.4,1.9,1.2,0.2,1.6,7.3,Point Guard,Guard
+Shelvin Mack,2.5,3.6,1.8,0.7,0.1,1.4,8.6,Point Guard,Guard
+Spencer Dinwiddie,1.4,1.8,0.6,0.3,0,1.7,4.8,Point Guard,Guard
+T.J. McConnell,3.1,4.5,1.7,1.2,0.1,1.4,6.1,Point Guard,Guard
+Terry Rozier,1.6,0.9,0.5,0.2,0,0.6,1.8,Point Guard,Guard
+Tony Parker,2.4,5.3,1.8,0.8,0.2,1.6,11.9,Point Guard,Guard
+Trevor Booker,5.7,1.1,1,0.7,0.5,2.1,5.9,Point Guard,Guard
+Trey Burke,1.8,2.3,1.3,0.5,0.1,1.3,10.6,Point Guard,Guard
+Trey Lyles,3.7,0.7,0.8,0.3,0.2,1.4,6.1,Point Guard,Guard
+Ty Lawson,1.8,3.6,1.4,0.8,0.1,1.3,5.7,Point Guard,Guard
+Tyler Ennis,1.6,2.1,1,0.5,0,1.4,4.5,Point Guard,Guard
+Tyus Jones,1.3,2.9,0.9,0.8,0.1,0.9,4.2,Point Guard,Guard
+Udonis Haslem,2,0.4,0.1,0.1,0.1,0.7,1.6,Point Guard,Guard
+Ben McLemore,2.2,1.2,1.5,0.8,0.1,2.1,7.8,Shooting Guard,Guard
+Bradley Beal,3.4,2.9,2,1,0.2,2.1,17.4,Shooting Guard,Guard
+C.J. Wilcox,0.5,0.4,0.1,0.4,0.1,0.7,3,Shooting Guard,Guard
+Darrun Hilliard,1.2,0.7,0.5,0.2,0,0.7,4,Shooting Guard,Guard
+Devin Booker,2.5,2.6,2.1,0.6,0.3,3,13.8,Shooting Guard,Guard
+Elliot Williams,0.8,0.8,0.2,0,0,0.4,1.6,Shooting Guard,Guard
+Eric Gordon,2.2,2.7,1.6,1,0.3,2.2,15.2,Shooting Guard,Guard
+J.J. Redick,1.9,1.4,1,0.6,0.1,1.8,16.3,Shooting Guard,Guard
+James Young,0.9,0.3,0.2,0.2,0,0.6,1,Shooting Guard,Guard
+Jarell Eddie,0.9,0.2,0,0.2,0,0.2,2.4,Shooting Guard,Guard
+Jodie Meeks,1.7,1,0.3,0,0,0.7,7.3,Shooting Guard,Guard
+Joe Harris,0.6,0.4,0.2,0,0,0.2,0.6,Shooting Guard,Guard
+Jordan Adams,1,1.5,1,1.5,0,1,3.5,Shooting Guard,Guard
+Kentavious Caldwell-Pope,3.7,1.8,1.4,1.4,0.2,2.2,14.5,Shooting Guard,Guard
+Lamar Patterson,1.4,1.1,0.7,0.3,0.1,1.3,2.4,Shooting Guard,Guard
+Mario Hezonja,2.2,1.4,1.2,0.5,0.2,1.6,6.1,Shooting Guard,Guard
+Markel Brown,2,1.5,0.9,0.6,0.2,1.5,5.9,Shooting Guard,Guard
+R.J. Hunter,1,0.4,0.3,0.4,0.1,0.8,2.7,Shooting Guard,Guard
+Sasha Vujacic,2.4,1.4,0.7,0.6,0.1,1.4,4.9,Shooting Guard,Guard
+Xavier Munford,2.2,1.6,1.1,0.9,0.2,1.8,5.7,Shooting Guard,Guard
+Alex Stepheson,3.5,0.3,0,0.1,0.6,1.5,2.8,Small Forward,Foward
+Anthony Brown,2.4,0.7,0.5,0.5,0.2,1.2,4,Small Forward,Foward
+Bruno Caboclo,0.3,0.2,0.7,0.3,0.2,0.3,0.5,Small Forward,Foward
+Caron Butler,1.3,0.6,0.2,0.5,0.1,1.1,3.7,Small Forward,Foward
+Cleanthony Early,1.5,0.4,0.5,0.1,0.2,0.9,1.8,Small Forward,Foward
+Coty Clarke,0.3,0,0.3,0,0,0,2,Small Forward,Foward
+Damien Inglis,1.6,0.5,0.6,0.3,0.2,0.6,1.8,Small Forward,Foward
+Doug McDermott,2.4,0.7,0.7,0.2,0.1,1.6,9.4,Small Forward,Foward
+Duje Dukan,4,1,0,1,0,2,6,Small Forward,Foward
+Giannis Antetokounmpo,7.7,4.3,2.6,1.2,1.4,3.2,16.9,Small Forward,Foward
+JJ O'Brien,0.5,0,0,0.5,0,0.5,0,Small Forward,Foward
+Jordan Hamilton,5.6,2.3,1.5,0.7,0.3,2.2,11.4,Small Forward,Foward
+Josh Huestis,2,0,0.6,0.2,0.4,0.6,2.8,Small Forward,Foward
+Josh Richardson,2.1,1.4,0.7,0.7,0.5,2.1,6.6,Small Forward,Foward
+Justin Anderson,2.4,0.5,0.4,0.3,0.5,0.8,3.8,Small Forward,Foward
+K.J. McDaniels,1.1,0.3,0.5,0.2,0.2,0.8,2.4,Small Forward,Foward
+Kelly Oubre Jr.,2.1,0.2,0.5,0.3,0.1,1.6,3.7,Small Forward,Foward
+Luis Montero,0.3,0.1,0.3,0,0,0.1,1.2,Small Forward,Foward
+Luke Babbitt,3.1,1.1,0.5,0.2,0.1,1.9,7,Small Forward,Foward
+Maurice Harkless,3.6,0.9,0.8,0.6,0.4,1.6,6.4,Small Forward,Foward
+Michael Kidd-Gilchrist,6.4,1.3,1.1,0.4,0.4,1.3,12.7,Small Forward,Foward
+Otto Porter,5.2,1.6,0.9,1.4,0.4,2.2,11.6,Small Forward,Foward
+T.J. Warren,3.1,0.9,0.7,0.8,0.3,2,11,Small Forward,Foward
+Thanasis Antetokounmpo,0.5,0,0,0,0,1,3,Small Forward,Foward

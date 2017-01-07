@@ -3,44 +3,46 @@
 
 library(TDAmapper)
 library(ggplot2)
-library(igraph)
+library(igraph
+library(RColorBrewer)
 
-#Compute a data and plot it
-First.Example.data = data.frame( x=2*cos(0.5*(1:100)), y=sin(1:100) )
-qplot(First.Example.data$x,First.Example.data$y)
+#Read data
+df <- read.csv("data/data_players_7stats_w_position.csv", header=TRUE)
+nba.positions <- df[,9]
+nba.gen_positions <- df[,10]
+nba.names <- df[,1]
+nba.st <- df[,2:8]
 
-#Use euclidean distance
-First.Example.dist = dist(First.Example.data)
+use_gen_positions <- FALSE
 
-#Apply Mapper
-First.Example.mapper <- mapper(dist_object = First.Example.dist,
-           filter_values = First.Example.data$x,
-           num_intervals = 6,
-           percent_overlap = 50,
-           num_bins_when_clustering = 10)
+#Perform PCA
+if(!exists("PCA", mode="function")) source("PCA.R")
+nba.pca <- PCA(nba.st, norm = TRUE)
 
-First.Example.graph <- graph.adjacency(First.Example.mapper$adjacency, mode="undirected")
+#Plot spectrum
+plot(nba.pca$spectrum, type="p", ylab="S")
 
+#Plot Variances described by each composant of the PCA
+plot(nba.pca$cumulativevariance, ylab="Var", xlab="index", type="b")
 
-#Compute the size of each vertex
-vertex.size <- rep(0,First.Example.mapper$num_vertices)
-for (i in 1:First.Example.mapper$num_vertices){
-  points.in.vertex <- First.Example.mapper$points_in_vertex[[i]]
-  vertex.size[i] <- length((First.Example.mapper$points_in_vertex[[i]]))
+#Add colors according to position
+if (use_gen_positions) {
+  colors<-brewer.pal(n=3,name="Set1")
+  color_position<-colors[nba.gen_positions]
+} else {
+  colors<-brewer.pal(n=9,name="Set1")
+  color_position<-colors[nba.positions]
 }
-V(First.Example.graph)$size <- vertex.size
 
-plot(First.Example.graph, layout = layout.auto(First.Example.graph) )
+#Plot PCA
+plot(nba.pca$points[1,],nba.pca$points[2,], xlab="PCA1", ylab="PCA2", col=color_position)
 
-
-#Alternatively, display an interactive plot
-
-library(networkD3)
-MapperNodes <- mapperVertices(First.Example.mapper, 1:100 )
-MapperLinks <- mapperEdges(First.Example.mapper)
-
-forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
-            Source = "Linksource", Target = "Linktarget",
-            Value = "Linkvalue", NodeID = "Nodename",
-            Group = "Nodegroup", opacity = 1,
-            linkDistance = 10, charge = -400)
+if (use_gen_positions) {
+    legend(x=0, y=6, levels(nba.gen_positions),pch=21,
+           col=colors, pt.cex=2, cex=.8, bty="n", ncol=1)
+} else {
+    legend(x=0, y=6, levels(nba.positions),pch=21,
+           col=colors, pt.cex=2, cex=.8, bty="n", ncol=1)
+}
+#Eventaully showing names
+#text(nba.pca$points[1,],nba.pca$points[2,],labels=df[,1], pos =3 )
