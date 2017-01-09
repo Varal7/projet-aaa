@@ -66,7 +66,7 @@ plot(nba.graph)
 
 #Display interactive graph
 MapperLinks <- mapperEdges(nba.mapper)
-MapperNodes <- mapperVertices(nba.mapper, 1:length(nba.pca$points[1,]) )
+MapperNodes <- mapperVertices(nba.mapper, rownames(nba.st) )
 forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
             Source = "Linksource", Target = "Linktarget",
             Value = "Linkvalue", NodeID = "Nodename",
