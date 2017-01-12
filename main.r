@@ -13,7 +13,7 @@ nba.positions <- df[,8]
 nba.gen_positions <- df[,9]
 nba.st <- df[,1:7]
 
-use_gen_positions <- FALSE
+use_gen_positions <- TRUE
 
 #Perform PCA
 if(!exists("PCA", mode="function")) source("PCA.R")
