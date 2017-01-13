@@ -32,84 +32,84 @@ fviz_pca_biplot(res.pca, geom="point")
 library(corrgram)
 corrgram(st)
 
-##Now use plotly to display custom plots
-dt = cbind.data.frame(res.pca$ind$coord[, 1:3], df["Position"], df["General.Position"], rownames(df))
-colnames(dt) = c("PCA1", "PCA2", "PCA3", "Position", "GeneralPosition", "Name")
-p2d<-plot_ly(data =dt, x = ~PCA1, y = ~PCA2,
-    text = ~paste("Name: ", Name, "<br>Position: ", Position),
-    type="scatter", mode="markers",
-    color = ~GeneralPosition,
-    hoverinfo = "text"
-    )
-p2d
-p3d<-plot_ly(data =dt, x = ~PCA1, y = ~PCA2, z=~PCA3,
-    text = ~paste("Name: ", Name, "<br>Position: ", Position),
-    type="scatter3d", mode="markers",
-    color = ~GeneralPosition,
-    hoverinfo = "text",
-    marker = list(size= 10)
-    )
-p3d
-p2dpp<-plot_ly(data =dt, x = ~PCA1, y = ~PCA2,
-    text = ~paste("Name: ", Name, "<br>Position: ", Position),
-    type="scatter", mode="markers",
-    color = ~Position,
-    hoverinfo = "text"
-    )
-p2dpp
-p3dpp<-plot_ly(data =dt, x = ~PCA1, y = ~PCA2, z=~PCA3,
-    text = ~paste("Name: ", Name, "<br>Position: ", Position),
-    type="scatter3d", mode="markers",
-    color = ~Position,
-    hoverinfo = "text",
-    marker = list(size= 10)
-    )
-p3dpp
-
-dtm = cbind.data.frame(res.pca$var$coord[, 1:5], colnames(df)[1:7])
-colnames(dtm) = c("PCA1", "PCA2", "PCA3", "PCA4", "PCA5", "Feature")
-pm2d<-plot_ly(data =dtm, x = ~PCA1, y = ~PCA2,
-    text = ~Feature,
-    textposition = "top center",
-    type="scatter", mode="markers+text",
-    marker = list(size = 15)
-    )
-pm2d
-pm3d<-plot_ly(data =dtm, x = ~PCA1, y = ~PCA2, z =~PCA3,
-    text = ~Feature,
-    type="scatter3d", mode="markers+text"
-    )
-pm3d
-
-#Both at the same time
-pb2d <- plot_ly(data =dtm, x = ~PCA1, y = ~PCA2,
-    text = ~Feature,
-    type="scatter", mode="markers+text",
-    marker = list(symbol="x"),
-    hoverinfo = "text"
-    ) %>%
-    add_trace(data =dt, x = ~PCA1, y = ~PCA2,
-        text = ~paste("Name: ", Name, "<br>Position: ", Position),
-        type="scatter", mode="markers",
-        color = ~Position,
-        hoverinfo = "text",
-        marker = list(symbol="circle", size=15),
-        hoverinfo = "text"
-    )
-pb2d
-
-pb3d <- plot_ly(data =dtm, x = ~PCA1, y = ~PCA2, z =~PCA3,
-    text = ~Feature,
-    type="scatter3d", mode="markers+text"
-    ) %>%
-    add_trace(data =dt, x = ~PCA1, y = ~PCA2, z=~PCA3,
-        text = ~paste("Name: ", Name, "<br>Position: ", Position),
-        type="scatter3d", mode="markers",
-        color = ~Position,
-        hoverinfo = "text",
-        marker = list(symbol="circle", size=10)
-    )
-pb3d
+# ##Now use plotly to display custom plots
+# dt = cbind.data.frame(res.pca$ind$coord[, 1:3], df["Position"], df["General.Position"], rownames(df))
+# colnames(dt) = c("PCA1", "PCA2", "PCA3", "Position", "GeneralPosition", "Name")
+# p2d<-plot_ly(data =dt, x = ~PCA1, y = ~PCA2,
+#     text = ~paste("Name: ", Name, "<br>Position: ", Position),
+#     type="scatter", mode="markers",
+#     color = ~GeneralPosition,
+#     hoverinfo = "text"
+#     )
+# p2d
+# p3d<-plot_ly(data =dt, x = ~PCA1, y = ~PCA2, z=~PCA3,
+#     text = ~paste("Name: ", Name, "<br>Position: ", Position),
+#     type="scatter3d", mode="markers",
+#     color = ~GeneralPosition,
+#     hoverinfo = "text",
+#     marker = list(size= 10)
+#     )
+# p3d
+# p2dpp<-plot_ly(data =dt, x = ~PCA1, y = ~PCA2,
+#     text = ~paste("Name: ", Name, "<br>Position: ", Position),
+#     type="scatter", mode="markers",
+#     color = ~Position,
+#     hoverinfo = "text"
+#     )
+# p2dpp
+# p3dpp<-plot_ly(data =dt, x = ~PCA1, y = ~PCA2, z=~PCA3,
+#     text = ~paste("Name: ", Name, "<br>Position: ", Position),
+#     type="scatter3d", mode="markers",
+#     color = ~Position,
+#     hoverinfo = "text",
+#     marker = list(size= 10)
+#     )
+# p3dpp
+#
+# dtm = cbind.data.frame(res.pca$var$coord[, 1:5], colnames(df)[1:7])
+# colnames(dtm) = c("PCA1", "PCA2", "PCA3", "PCA4", "PCA5", "Feature")
+# pm2d<-plot_ly(data =dtm, x = ~PCA1, y = ~PCA2,
+#     text = ~Feature,
+#     textposition = "top center",
+#     type="scatter", mode="markers+text",
+#     marker = list(size = 15)
+#     )
+# pm2d
+# pm3d<-plot_ly(data =dtm, x = ~PCA1, y = ~PCA2, z =~PCA3,
+#     text = ~Feature,
+#     type="scatter3d", mode="markers+text"
+#     )
+# pm3d
+#
+# #Both at the same time
+# pb2d <- plot_ly(data =dtm, x = ~PCA1, y = ~PCA2,
+#     text = ~Feature,
+#     type="scatter", mode="markers+text",
+#     marker = list(symbol="x"),
+#     hoverinfo = "text"
+#     ) %>%
+#     add_trace(data =dt, x = ~PCA1, y = ~PCA2,
+#         text = ~paste("Name: ", Name, "<br>Position: ", Position),
+#         type="scatter", mode="markers",
+#         color = ~Position,
+#         hoverinfo = "text",
+#         marker = list(symbol="circle", size=15),
+#         hoverinfo = "text"
+#     )
+# pb2d
+#
+# pb3d <- plot_ly(data =dtm, x = ~PCA1, y = ~PCA2, z =~PCA3,
+#     text = ~Feature,
+#     type="scatter3d", mode="markers+text"
+#     ) %>%
+#     add_trace(data =dt, x = ~PCA1, y = ~PCA2, z=~PCA3,
+#         text = ~paste("Name: ", Name, "<br>Position: ", Position),
+#         type="scatter3d", mode="markers",
+#         color = ~Position,
+#         hoverinfo = "text",
+#         marker = list(symbol="circle", size=10)
+#     )
+# pb3d
 
 
 #Center and normalize data
@@ -127,7 +127,7 @@ res.mapper2d <- mapper(dist_object = distances,
 
 
 nba.mapper <- mapper(dist_object = nba.dist,
-          filter_values = list(nba.pca$points[1,],nba.pca$points[2,]),
+          filter_values = list(res.pca$points[1,],res.pca$points[2,]),
           num_intervals = c(30,30),
           percent_overlap = 50,
           num_bins_when_clustering = 5)

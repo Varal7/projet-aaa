@@ -10,7 +10,7 @@ from isomap import *
 # from affinityPropagation import *
 # from meanShift import *
 from clustering_study import *
-from plot_kmeans_silhouette_analysis import *
+from clusteringFunctions import *
 from sklearn import decomposition
 from pcaImp import pca
 from pandas.tools.plotting import scatter_matrix
@@ -62,6 +62,7 @@ range_n_clusters = range(3, 19)
 for n_clusters in range_n_clusters:
     silhouettes.append(clustering_analysis(X, singlelinkage_clustering(X, n_clusters))[0])
     contrasts.append(clustering_analysis(X, singlelinkage_clustering(X, n_clusters))[1])
+    print(n_clusters)
 
 plt.figure(figsize=(20,7))
 plt.subplot(2, 1, 1)
