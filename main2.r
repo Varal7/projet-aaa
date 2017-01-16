@@ -127,14 +127,21 @@ nba.mapper <- mapper(dist_object = distances,
           num_bins_when_clustering = 5)
 
 nba.graph <- graph.adjacency(nba.mapper$adjacency, mode="undirected")
-
 plot(nba.graph)
+
 MapperLinks <- mapperEdges(nba.mapper)
 MapperNodes <- mapperVertices(nba.mapper, rownames(df))
+
+name <- "Marcus Camby"
+#name <- "Tyson Chandler"
+cond <- grepl(name,MapperNodes$Nodename)
+MapperNodes["cond"]<- cond
+
 forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
             Source = "Linksource", Target = "Linktarget",
             Value = "Linkvalue", NodeID = "Nodename",
-            Group = "Nodegroup", opacity = 1,
+            Group = "cond", opacity = 1,
+            colourScale = "d3.scale.category10()",
             linkDistance = 10, charge = -400, zoom=TRUE)
 
 res.mapper1d <- mapper(dist_object = distances,
