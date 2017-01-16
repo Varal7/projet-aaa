@@ -10,7 +10,8 @@ library(FactoMineR)
 library(plotly)
 
 #Read data
-df <- read.csv("data/data_players_7stats_w_position.csv", header=TRUE)
+#df <- read.csv("data/data_players_7stats_w_position.csv", header=TRUE)
+df <- read.csv("data/data_2010-2011.csv", header=TRUE)
 positions <- df[,8]
 gen_positions <- df[,9]
 st <- df[,1:7]
@@ -33,7 +34,7 @@ library(corrgram)
 corrgram(st)
 
 ##Now use plotly to display custom plots
-dt = cbind.data.frame(res.pca$ind$coord[, 1:3], df["Position"], df["General.Position"], rownames(df))
+dt = cbind.data.frame(res.pca$ind$coord[, 1:3], positions, gen_positions, rownames(df))
 colnames(dt) = c("PCA1", "PCA2", "PCA3", "Position", "GeneralPosition", "Name")
 p2d<-plot_ly(data =dt, x = ~PCA1, y = ~PCA2,
     text = ~paste("Name: ", Name, "<br>Position: ", Position),
