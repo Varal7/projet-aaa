@@ -120,25 +120,17 @@ st <- scale(st)
 #Compute Variance Normalized Euclidean distance
 distances = dist(st, method="manhattan")
 
-res.mapper2d <- mapper(dist_object = distances,
-           filter_values = list(res.pca$ind$coord[,1],res.pca$ind$coord[,2]),
-           num_intervals = c(10,10),
-           percent_overlap = 50,
-           num_bins_when_clustering = 4)
-
-
-nba.mapper <- mapper(dist_object = nba.dist,
-          filter_values = list(nba.pca$points[1,],nba.pca$points[2,]),
+nba.mapper <- mapper(dist_object = distances,
+          filter_values = list(res.pca$ind$coord[,1],res.pca$ind$coord[,2]),
           num_intervals = c(30,30),
           percent_overlap = 50,
           num_bins_when_clustering = 5)
 
 nba.graph <- graph.adjacency(nba.mapper$adjacency, mode="undirected")
 
-res.graph2d <- graph.adjacency(res.mapper2d$adjacency, mode="undirected")
-plot(res.graph2d)
-MapperLinks <- mapperEdges(res.mapper2d)
-MapperNodes <- mapperVertices(res.mapper2d, rownames(df))
+plot(nba.graph)
+MapperLinks <- mapperEdges(nba.mapper)
+MapperNodes <- mapperVertices(nba.mapper, rownames(df))
 forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
             Source = "Linksource", Target = "Linktarget",
             Value = "Linkvalue", NodeID = "Nodename",
