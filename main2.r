@@ -160,6 +160,14 @@ plot(nba.graph)
 MapperLinks <- mapperEdges(nba.mapper)
 MapperNodes <- mapperVertices(nba.mapper, rownames(df))
 
+forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
+            Source = "Linksource", Target = "Linktarget",
+            Value = "Linkvalue", NodeID = "Nodename",
+            Group = "Nodegroup", opacity = 1,
+            colourScale = "d3.scale.category10()",
+            linkDistance =
+    JS('function(){d3.select("body").style("background-color", "#FFFFFF"); return 10;}'), charge = -400, zoom=TRUE)
+
 name <- "Marcus Camby"
 #name <- "Tyson Chandler"
 cond <- grepl(name,MapperNodes$Nodename)
@@ -170,7 +178,8 @@ forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
             Value = "Linkvalue", NodeID = "Nodename",
             Group = "cond", opacity = 1,
             colourScale = "d3.scale.category10()",
-            linkDistance = 10, charge = -400, zoom=TRUE)
+            linkDistance =
+    JS('function(){d3.select("body").style("background-color", "#FFFFFF"); return 10;}'), charge = -400, zoom=TRUE)
 
 res.mapper1d <- mapper(dist_object = distances,
            filter_values = list(res.pca$ind$coord[,1]),
