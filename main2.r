@@ -114,6 +114,33 @@ pb3d <- plot_ly(data =dtm, x = ~PCA1, y = ~PCA2, z =~PCA3,
 pb3d
 
 
+#Use r-TSNE to visualize data
+library(Rtsne)
+res.tsne <- Rtsne(
+  as.matrix(st),
+  check_duplicates = FALSE,
+  perplexity = 100,
+  theta = 0.5,
+  dims = 2,
+  verbose = TRUE
+)
+tdt = cbind.data.frame(res.tsne$Y, positions, gen_positions, rownames(df))
+colnames(tdt) = c("V1", "V2", "Position", "GeneralPosition", "Name")
+
+ptp <- plot_ly(
+  data = tdt
+  ,x = ~V1
+  ,y = ~V2
+  #,text = ~paste("Name: ", Name, "<br>Position: ", Position),
+  ,text = ~Name
+  ,hoverinfo = "text"
+  ,type = "scattergl"
+  ,color = ~GeneralPosition
+  ,mode = 'markers'
+  ,marker = list(line = list(width = 2))
+)
+ptp
+
 #Center and normalize data
 
 st <- scale(st)
