@@ -4,6 +4,7 @@ import xgboost as xgb
 import matplotlib.pyplot as plt
 from xgboost import plot_tree
 from sklearn import decomposition
+from tqdm import *
 
 from utilitiesData import *
 from sklearn.base import BaseEstimator
@@ -30,13 +31,15 @@ def error_predict_origin(X0 = np.array([0, 0])):
 
     predictors = ['Rebounds', 'Assists', 'Turnovers', 'Steals', 'Blocks', 'PersonalFouls', 'Points']
 
+    df[predictors] = df[predictors] / np.std(df[predictors], axis = 0)
+
     pca = decomposition.PCA(2)
     pca.fit(df[predictors])
     projection = np.dot(df[predictors], pca.components_.T)
     projection -= X0
     angle = np.zeros((projection.shape[0], 1))
-    angle[projection[:, 1] == 0, 0] = np.pi / 2
-    angle[projection[:, 1] != 0, 0] = np.arctan(projection[projection[:, 1] != 0][:, 0] / projection[projection[:, 1] != 0][:, 1])
+    angle[projection[:, 0] == 0, 0] = np.pi / 2
+    angle[projection[:, 0] != 0, 0] = np.arctan(projection[projection[:, 0] != 0][:, 1] / projection[projection[:, 0] != 0][:, 0])
 
 
     score = score_prediction(angle, df['GenPosition'])
@@ -44,7 +47,7 @@ def error_predict_origin(X0 = np.array([0, 0])):
 
 
 def score_prediction(X, Y):
-    clf = xgb.XGBClassifier(n_estimators = 100,
+    clf = xgb.XGBClassifier(n_estimators = 10,
                                 max_depth = 5,
                                 objective = 'multi:softmax',
                                 subsample = 0.5)
@@ -58,9 +61,9 @@ def score_prediction(X, Y):
 
 def optimize_origin(grid, xmin, xmax, ymin, ymax):
     scores = np.zeros([grid, grid])
-    for i in range(grid):
-        for j in range(grid):
-            origin = np.array([xmin + (xmax - xmin) * i / grid, ymin + (ymax - ymin) * j / grid])
+    for i in tqdm(range(grid)):
+        for j in tqdm(range(grid)):
+            origin = np.array([xmin + (xmax - xmin) * i / grid, ymax + (ymin - ymax) * j / grid])
             scores[i, j] = error_predict_origin(origin)
 
     print(scores)
@@ -71,7 +74,7 @@ def optimize_origin(grid, xmin, xmax, ymin, ymax):
 
 
 def main():
-    optimize_origin(30, -5, 5, -5, 5)
+    optimize_origin(50, -20, 20, -20, 20)
 
 if  __name__ =='__main__':main()
 
