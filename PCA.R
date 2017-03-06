@@ -1,7 +1,7 @@
 ### INF563 (2015-2016)
 ### Copyright (C) 2015 by M. Carrière and S. Oudot
 
-PCA <- function(cloud, norm=FALSE){ # cloud: data frame, norm: boolean (true if data must be normalized)
+PCA <- function(cloud, center = TRUE, norm=FALSE){ # cloud: data frame, norm: boolean (true if data must be normalized)
 
 # number of data points (= number of lines)
 np <- length(cloud[[1]])
@@ -10,7 +10,7 @@ np <- length(cloud[[1]])
 m <- data.matrix(cloud)
 
 # center (and normalize) data
-m <- scale(m, scale=norm)
+#m <- scale(m, center = center, norm = norm)
 
 # compute covariance matrix
 cov <- (t(m) %*% m)/np

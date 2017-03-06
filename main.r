@@ -17,7 +17,7 @@ use_gen_positions <- TRUE
 
 #Perform PCA
 if(!exists("PCA", mode="function")) source("PCA.R")
-nba.pca <- PCA(nba.st, norm = TRUE)
+nba.pca <- PCA(nba.st, center=TRUE, norm = TRUE)
 
 #Plot spectrum
 plot(nba.pca$spectrum, type="p", ylab="S")
