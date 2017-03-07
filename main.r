@@ -74,3 +74,31 @@ forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
             Value = "Linkvalue", NodeID = "Nodename",
             Group = "Nodegroup", opacity = 1,
             linkDistance = 10, charge = -400, zoom=TRUE)
+
+
+#name <- "Marcus Camby"
+#name <- "Tyson Chandler"
+#name <- "Bryce Cotton"
+#name <- "Stephen Curry"
+#name <- "Manu Ginobili"
+#name <- "Kevin Durant"
+#name <- "LeBron James"
+#name <- "Dirk Nowitzki"
+#name <- "LaMarcus Aldridge"
+#name <- "Kevin Love"
+#name <- "Blake Griffin"
+cond <- grepl(name,MapperNodes$Nodename)
+MapperNodes["cond"]<- cond
+
+a <- strsplit(as.character(MapperNodes$Nodename), ", ")
+for (i in 1:length(a)) {
+  a[[i]][1] <- strsplit(a[[i]][1], ": ")[[1]][2]
+}
+
+forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
+            Source = "Linksource", Target = "Linktarget",
+            Value = "Linkvalue", NodeID = "Nodename",
+            Group = "cond", opacity = 1,
+            colourScale = "d3.scale.category10()",
+            linkDistance =
+    JS('function(){d3.select("body").style("background-color", "#000000"); return 10;}'), charge = -400, zoom=TRUE)
