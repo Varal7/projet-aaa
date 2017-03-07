@@ -8,6 +8,7 @@ library(RColorBrewer)
 library(networkD3)
 library(FactoMineR)
 library(plotly)
+library(Rtsne)
 
 #Read data
 #df <- read.csv("data/data_players_7stats_w_position.csv", header=TRUE)
@@ -115,7 +116,6 @@ pb3d
 
 
 #Use r-TSNE to visualize data
-library(Rtsne)
 res.tsne <- Rtsne(
   as.matrix(st),
   check_duplicates = FALSE,

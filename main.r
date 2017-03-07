@@ -17,7 +17,9 @@ use_gen_positions <- TRUE
 
 #Perform PCA
 if(!exists("PCA", mode="function")) source("PCA.R")
-nba.pca <- PCA(nba.st, center=TRUE, norm = TRUE)
+nba.pca <- PCA(nba.st, center=FALSE, norm = TRUE)
+angles <- atan(nba.pca$points[2,] / nba.pca$points[1,])
+
 
 #Plot spectrum
 plot(nba.pca$spectrum, type="p", ylab="S")
@@ -54,7 +56,7 @@ nba.st <- scale(nba.st)
 nba.dist = dist(nba.st)
 
 nba.mapper <- mapper(dist_object = nba.dist,
-           filter_values = list(nba.pca$points[1,],nba.pca$points[2,]),
+           filter_values = list(nba.pca$points[1,], angles),
            num_intervals = c(30,30),
            percent_overlap = 50,
            num_bins_when_clustering = 5)
@@ -62,7 +64,7 @@ nba.mapper <- mapper(dist_object = nba.dist,
 nba.graph <- graph.adjacency(nba.mapper$adjacency, mode="undirected")
 
 #Display graph
-plot(nba.graph)
+#plot(nba.graph)
 
 #Display interactive graph
 MapperLinks <- mapperEdges(nba.mapper)
