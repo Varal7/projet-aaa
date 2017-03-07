@@ -7,6 +7,8 @@ library(ggplot2)
 library(igraph)
 library(RColorBrewer)
 library(networkD3)
+library(Rtsne)
+
 
 #Read data
 df <- read.csv("data/data_players_7stats_w_position.csv", header=TRUE)
@@ -56,8 +58,21 @@ nba.st <- scale(nba.st)
 #Compute Variance Normalized Euclidean distance
 nba.dist = dist(nba.st)
 
+nba.tsne <- Rtsne(
+  as.matrix(nba.st),
+  check_duplicates = FALSE,
+  perplexity = 100,
+  theta = 0.5,
+  dims = 2,
+  verbose = TRUE
+)
+
 nba.mapper <- mapper(dist_object = nba.dist,
+           #filter_values = list(order(nba.tsne$Y[,1]), order(nba.tsne$Y[,2])),
+           #filter_values = list(nba.tsne$Y[,1], nba.tsne$Y[,2]),
+           #filter_values = list(nba.pca$points[1,], nba.pca$points[2,]),
            filter_values = list(nba.pca$points[1,], angles),
+           #filter_values = list(order(nba.pca$points[1,]), order(angles)),
            num_intervals = c(30,30),
            percent_overlap = 50,
            num_bins_when_clustering = 5)
@@ -70,11 +85,11 @@ nba.graph <- graph.adjacency(nba.mapper$adjacency, mode="undirected")
 #Display interactive graph
 MapperLinks <- mapperEdges(nba.mapper)
 MapperNodes <- mapperVertices(nba.mapper, rownames(nba.st) )
-forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
-            Source = "Linksource", Target = "Linktarget",
-            Value = "Linkvalue", NodeID = "Nodename",
-            Group = "Nodegroup", opacity = 1,
-            linkDistance = 10, charge = -400, zoom=TRUE)
+#forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
+#            Source = "Linksource", Target = "Linktarget",
+#            Value = "Linkvalue", NodeID = "Nodename",
+#            Group = "Nodegroup", opacity = 1,
+#            linkDistance = 10, charge = -400, zoom=TRUE)
 
 
 #name <- "Marcus Camby"
