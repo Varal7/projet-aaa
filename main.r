@@ -1,6 +1,7 @@
 # Inspired by Frederic Chazal and Bertrand Michel's practical lesson
 # http://www.lsta.upmc.fr/michelb/Enseignements/TDA/Mapper_solutions.html
 
+library(data.table)
 library(TDAmapper)
 library(ggplot2)
 library(igraph)
@@ -86,19 +87,30 @@ forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
 #name <- "Dirk Nowitzki"
 #name <- "LaMarcus Aldridge"
 #name <- "Kevin Love"
-#name <- "Blake Griffin"
+name <- "Blake Griffin"
 cond <- grepl(name,MapperNodes$Nodename)
 MapperNodes["cond"]<- cond
 
-a <- strsplit(as.character(MapperNodes$Nodename), ", ")
-for (i in 1:length(a)) {
-  a[[i]][1] <- strsplit(a[[i]][1], ": ")[[1]][2]
+
+assoc = data.table(names = rownames(nba.st), position = as.character(nba.gen_positions))
+setkey(assoc, "names")
+
+
+nodePosition <- strsplit(as.character(MapperNodes$Nodename), ", ")
+nodeMainPosition <- c()
+for (i in 1:length(nodePosition)) {
+  nodePosition[[i]][1] <- strsplit(nodePosition[[i]][1], ": ")[[1]][2]
+  nodePosition[[i]] <- assoc[nodePosition[[i]]][,position]
+  nodeMainPosition[i] <- names(sort(table(nodePosition[[i]]),decreasing=TRUE)[1])
 }
+nodeMainPosition
+
+MapperNodes["position"] <- nodeMainPosition
 
 forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
             Source = "Linksource", Target = "Linktarget",
             Value = "Linkvalue", NodeID = "Nodename",
-            Group = "cond", opacity = 1,
+            Group = "position", opacity = 1,
             colourScale = "d3.scale.category10()",
             linkDistance =
     JS('function(){d3.select("body").style("background-color", "#000000"); return 10;}'), charge = -400, zoom=TRUE)
