@@ -104,31 +104,23 @@ filters = list(
     list(order(nba.pca$points[1,]), order(nba.angles))
 )
 
-
 # Choose parameters
 
 filter_value_id = 2
-num_intervals_x = 3
-num_intervals_y = 3
+num_intervals_x = 20
+num_intervals_y = 20
 percent_overlap = 50
 num_bins = 5
 
 # Apply Mapper
+tic <- proc.time()
 nba.mapper <- mapper(dist_object = nba.dist,
            filter_values = filters[filter_value_id],
            num_intervals = c(num_intervals_x,num_intervals_y),
            percent_overlap = percent_overlap,
            num_bins_when_clustering = num_bins)
-
-# Naming convention:
-# [filter_value_id]_[num_intervals_x]_[num_intervals_y]_[percent_overlap]_[num_bins].html
-#
-# 1. PCA1 + PCA2
-# 2. PCA1 + angles
-# 3. tsne
-# 4. PCA1 + PCA2 - order
-# 5. PCA1 + angles - order
-# 6. tsne - order
+tac <- proc.time()
+tac - tic
 
 name <- paste(filter_value_id, num_intervals_x, num_intervals_y, percent_overlap, num_bins, sep="_")
 saveGraph(nba.mapper, paste(name, "html", sep="."))
