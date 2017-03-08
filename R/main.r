@@ -98,11 +98,22 @@ saveGraph <- function(res.mapper, filename) {
   MapperLinks["Linktarget"] <- MapperLinks["Linktarget"] - 2
   print(MapperLinks["Linktarget"])
   # Display Network
+  red <- "ff0000"
+  yellow <- "ffff00"
+  blue <- "0099ff"
+  orange <- "ff9933"
+  green <- "33cc33"
+  violet <- "ff66ff"
+
+  palette <- paste(red, yellow, blue, orange, green, violet, sep = '","') #check order
+  palette <- paste0('["', palette, '"]')
+  instruction <- paste0('d3.scale.ordinal().range(', palette, ')')
+
   forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
               Source = "Linksource", Target = "Linktarget",
               Value = "Linkvalue", NodeID = "Nodename",
               Group = "position", opacity = 1,
-              colourScale = "d3.scale.category10()",
+              colourScale = instruction,
               linkDistance =
       JS('function(){d3.select("body").style("background-color", "#000000"); return 10;}'), charge = -400, zoom=TRUE) %>%
 
