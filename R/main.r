@@ -114,8 +114,9 @@ saveGraph <- function(res.mapper, filename) {
               Value = "Linkvalue", NodeID = "Nodename",
               Group = "position", opacity = 1,
               colourScale = instruction,
+              legend = TRUE,
               linkDistance =
-      JS('function(){d3.select("body").style("background-color", "#000000"); return 10;}'), charge = -400, zoom=TRUE) %>%
+      JS('function(){d3.select("body").style("background-color", "#fff"); return 10;}'), charge = -400, zoom=TRUE) %>%
 
   saveNetwork(file = filename)
 }
@@ -141,7 +142,8 @@ num_bins = 5
 
 # Apply Mapper
 
-for (num_intervals in c(5)){#, 10, 20, 25, 30, 35 ,40)) {
+for (num_intervals in c(5)) {
+#for (num_intervals in c(5, 10, 20, 25, 30, 35 ,40)) {
   num_intervals_x <- num_intervals
   num_intervals_y <- num_intervals
 
@@ -149,6 +151,6 @@ for (num_intervals in c(5)){#, 10, 20, 25, 30, 35 ,40)) {
   nba.mapper <- mapper(dist_object = nba.dist, filter_values = filters[filter_value_id], num_intervals = c(num_intervals_x,num_intervals_y), percent_overlap = percent_overlap, num_bins_when_clustering = num_bins)
   tac <- proc.time()
   tac - tic
-  name <- paste(filter_value_id, num_intervals_x, num_intervals_y, percent_overlap, num_bins, sep="_")
+  name <- paste(filter_value_id, num_intervals_x, num_intervals_y, percent_overlap, num_bins, "refined", sep="_")
   saveGraph(nba.mapper, paste(name, "html", sep="."))
 }
