@@ -77,7 +77,19 @@ saveGraph <- function(res.mapper, filename) {
   for (i in 1:length(nodePosition)) {
     nodePosition[[i]][1] <- strsplit(nodePosition[[i]][1], ": ")[[1]][2]
     nodePosition[[i]] <- assoc[nodePosition[[i]]][,position]
-    nodeMainPosition[i] <- names(sort(table(nodePosition[[i]]),decreasing=TRUE)[1])
+    occurrences <- sort(table(nodePosition[[i]]),decreasing=TRUE)
+    frequencies <- occurrences / sum(occurrences)
+    if (frequencies[1] > 2/3)
+    {
+      nodeMainPosition[i] <- names(frequencies[1])
+    }
+    else
+    {
+      names.cat <- sort(names(frequencies[1:2]))
+      nodeMainPosition[i] <- paste(names.cat[1], names.cat[2])
+    }
+    print(nodeMainPosition[i])
+    # nodeMainPosition[i] <- names(sort(table(nodePosition[[i]]),decreasing=TRUE)[1])
   }
   MapperNodes["position"] <- nodeMainPosition
 
@@ -114,7 +126,7 @@ num_bins = 5
 
 # Apply Mapper
 
-for (num_intervals in c(5, 10, 20, 25, 30, 35 ,40)) {
+for (num_intervals in c(5)){#, 10, 20, 25, 30, 35 ,40)) {
   num_intervals_x <- num_intervals
   num_intervals_y <- num_intervals
 
