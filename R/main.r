@@ -93,6 +93,10 @@ saveGraph <- function(res.mapper, filename) {
   }
   MapperNodes["position"] <- nodeMainPosition
 
+  MapperLinks["Linksource"] <- MapperLinks["Linksource"] - 2
+  print(MapperLinks["Linksource"])
+  MapperLinks["Linktarget"] <- MapperLinks["Linktarget"] - 2
+  print(MapperLinks["Linktarget"])
   # Display Network
   forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
               Source = "Linksource", Target = "Linktarget",
