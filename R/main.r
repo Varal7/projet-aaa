@@ -38,7 +38,7 @@ nba.tsne <- Rtsne(
 )
 
 # Display Mapper graph
-displayGraph <- function(res.mapper, filename) {
+saveGraph <- function(res.mapper, filename) {
 
   # Compute graph
   nba.graph <- graph.adjacency(res.mapper$adjacency, mode="undirected")
@@ -90,22 +90,45 @@ displayGraph <- function(res.mapper, filename) {
               linkDistance =
       JS('function(){d3.select("body").style("background-color", "#000000"); return 10;}'), charge = -400, zoom=TRUE) %>%
 
-  saveNetwork(file = paste('output', filename, sep = '/'))
+  saveNetwork(file = filename)
 }
 
-# Choose filter values
+# List possible filters
 
-#filter_values = list(order(nba.tsne$Y[,1]), order(nba.tsne$Y[,2]))
-#filter_values = list(nba.tsne$Y[,1], nba.tsne$Y[,2])
-#filter_values = list(nba.pca$points[1,], nba.pca$points[2,])
-filter_values = list(nba.pca$points[1,], nba.angles)
-#filter_values = list(order(nba.pca$points[1,]), order(nba.angles))
+filters = list(
+    list(nba.pca$points[1,], nba.pca$points[2,]),
+    list(nba.pca$points[1,], nba.angles),
+    list(nba.tsne$Y[,1], nba.tsne$Y[,2]),
+    list(order(nba.pca$points[1,]), order(nba.pca$points[2,])),
+    list(order(nba.tsne$Y[,1]), order(nba.tsne$Y[,2])),
+    list(order(nba.pca$points[1,]), order(nba.angles))
+)
+
+
+# Choose parameters
+
+filter_value_id = 2
+num_intervals_x = 3
+num_intervals_y = 3
+percent_overlap = 50
+num_bins = 5
 
 # Apply Mapper
 nba.mapper <- mapper(dist_object = nba.dist,
-           filter_values = filter_values,
-           num_intervals = c(3,3),
-           percent_overlap = 50,
-           num_bins_when_clustering = 5)
+           filter_values = filters[filter_value_id],
+           num_intervals = c(num_intervals_x,num_intervals_y),
+           percent_overlap = percent_overlap,
+           num_bins_when_clustering = num_bins)
 
-displayGraph(nba.mapper, "pca_angles_3.html")
+# Naming convention:
+# [filter_value_id]_[num_intervals_x]_[num_intervals_y]_[percent_overlap]_[num_bins].html
+#
+# 1. PCA1 + PCA2
+# 2. PCA1 + angles
+# 3. tsne
+# 4. PCA1 + PCA2 - order
+# 5. PCA1 + angles - order
+# 6. tsne - order
+
+name <- paste(filter_value_id, num_intervals_x, num_intervals_y, percent_overlap, num_bins, sep="_")
+saveGraph(nba.mapper, paste(name, "html", sep="."))
