@@ -11,8 +11,8 @@ library(plotly)
 library(Rtsne)
 
 #Read data
-#df <- read.csv("data/data_players_7stats_w_position.csv", header=TRUE)
-df <- read.csv("data/data_2010-2011.csv", header=TRUE)
+#df <- read.csv("../data/data_players_7stats_w_position.csv", header=TRUE)
+df <- read.csv("../data/data_2010-2011.csv", header=TRUE)
 positions <- df[,8]
 gen_positions <- df[,9]
 st <- df[,1:7]
@@ -140,62 +140,3 @@ ptp <- plot_ly(
   ,marker = list(line = list(width = 2))
 )
 ptp
-
-#Center and normalize data
-
-st <- scale(st)
-
-#Compute Variance Normalized Euclidean distance
-distances = dist(st, method="manhattan")
-
-nba.mapper <- mapper(dist_object = distances,
-          filter_values = list(res.pca$ind$coord[,1],res.pca$ind$coord[,2]),
-          num_intervals = c(30,30),
-          percent_overlap = 50,
-          num_bins_when_clustering = 5)
-
-nba.graph <- graph.adjacency(nba.mapper$adjacency, mode="undirected")
-plot(nba.graph)
-
-MapperLinks <- mapperEdges(nba.mapper)
-MapperNodes <- mapperVertices(nba.mapper, rownames(df))
-
-forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
-            Source = "Linksource", Target = "Linktarget",
-            Value = "Linkvalue", NodeID = "Nodename",
-            Group = "Nodegroup", opacity = 1,
-            colourScale = "d3.scale.category10()",
-            linkDistance =
-    JS('function(){d3.select("body").style("background-color", "#FFFFFF"); return 10;}'), charge = -400, zoom=TRUE)
-
-name <- "Marcus Camby"
-#name <- "Tyson Chandler"
-cond <- grepl(name,MapperNodes$Nodename)
-MapperNodes["cond"]<- cond
-
-forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
-            Source = "Linksource", Target = "Linktarget",
-            Value = "Linkvalue", NodeID = "Nodename",
-            Group = "cond", opacity = 1,
-            colourScale = "d3.scale.category10()",
-            linkDistance =
-    JS('function(){d3.select("body").style("background-color", "#FFFFFF"); return 10;}'), charge = -400, zoom=TRUE)
-
-res.mapper1d <- mapper(dist_object = distances,
-           filter_values = list(res.pca$ind$coord[,1]),
-           num_intervals = c(30),
-           percent_overlap = 50,
-           num_bins_when_clustering = 5)
-res.graph1d <- graph.adjacency(res.mapper1d$adjacency, mode="undirected")
-
-#Display graph
-plot(res.graph1d)
-
-#Display interactive graph
-MapperLinks <- mapperEdges(res.mapper1d)
-MapperNodes <- mapperVertices(res.mapper1d, 1:length(res.pca$points[1,]) )
-forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
-            Source = "Linksource", Target = "Linktarget",
-            Value = "Linkvalue", NodeID = "Nodename",
-            Group = "Nodegroup", opacity = 1,
-            linkDistance = 10, charge = -400, zoom=TRUE)

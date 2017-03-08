@@ -8,7 +8,7 @@ library(Rtsne)
 library(magrittr)
 
 # Read data
-df <- read.csv("data/data_players_7stats_w_position.csv", header=TRUE)
+df <- read.csv("../data/data_players_7stats_w_position.csv", header=TRUE)
 nba.positions <- df[,8]
 nba.gen_positions <- df[,9]
 nba.st <- df[,1:7]
