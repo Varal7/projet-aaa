@@ -113,14 +113,15 @@ percent_overlap = 50
 num_bins = 5
 
 # Apply Mapper
-tic <- proc.time()
-nba.mapper <- mapper(dist_object = nba.dist,
-           filter_values = filters[filter_value_id],
-           num_intervals = c(num_intervals_x,num_intervals_y),
-           percent_overlap = percent_overlap,
-           num_bins_when_clustering = num_bins)
-tac <- proc.time()
-tac - tic
 
-name <- paste(filter_value_id, num_intervals_x, num_intervals_y, percent_overlap, num_bins, sep="_")
-saveGraph(nba.mapper, paste(name, "html", sep="."))
+for (num_intervals in c(5, 10, 20, 25, 30, 35 ,40)) {
+  num_intervals_x <- num_intervals
+  num_intervals_y <- num_intervals
+
+  tic <- proc.time()
+  nba.mapper <- mapper(dist_object = nba.dist, filter_values = filters[filter_value_id], num_intervals = c(num_intervals_x,num_intervals_y), percent_overlap = percent_overlap, num_bins_when_clustering = num_bins)
+  tac <- proc.time()
+  tac - tic
+  name <- paste(filter_value_id, num_intervals_x, num_intervals_y, percent_overlap, num_bins, sep="_")
+  saveGraph(nba.mapper, paste(name, "html", sep="."))
+}
