@@ -82,6 +82,7 @@ nba.mapper <- mapper(dist_object = nba.dist,
            percent_overlap = 50,
            num_bins_when_clustering = 5)
 
+
 # Compute graph
 nba.graph <- graph.adjacency(nba.mapper$adjacency, mode="undirected")
 MapperLinks <- mapperEdges(nba.mapper)
@@ -132,4 +133,4 @@ forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
             linkDistance =
     JS('function(){d3.select("body").style("background-color", "#000000"); return 10;}'), charge = -400, zoom=TRUE) %>%
 
-saveNetwork(file = 'Net1.html')
+saveNetwork(file = 'old.html')
