@@ -41,7 +41,7 @@ nba.tsne <- Rtsne(
 saveGraph <- function(res.mapper, orig_name) {
 
   # Compute graph
-  nba.graph <- graph.adjacency(res.mapper$adjacency, mode="undirected") #This line is what takes time
+  nba.graph <- graph.adjacency(res.mapper$adjacency, mode="undirected") 
   MapperLinks <- mapperEdges(res.mapper)
   MapperNodes <- mapperVertices(res.mapper, rownames(nba.st) )
 
@@ -88,9 +88,9 @@ saveGraph <- function(res.mapper, orig_name) {
               Value = "Linkvalue", NodeID = "Nodename",
               Group = "position", opacity = 1,
               colourScale = "d3.scale.category10()",
-              legend = True,
+              legend = TRUE,
               linkDistance =
-      JS('function(){d3.select("body").style("background-color", "#000000"); return 10;}'), charge = -400, zoom=TRUE) %>%
+      JS('function(){d3.select("body").style("background-color", "#000000"); d3.select("body").style("fill", "#ffffff"); return 10;}'), charge = -400, zoom=TRUE) %>%
   saveNetwork(file = paste(filename, "html", sep="."))
 
   # Display Network (White)
@@ -100,9 +100,9 @@ saveGraph <- function(res.mapper, orig_name) {
               Value = "Linkvalue", NodeID = "Nodename",
               Group = "position", opacity = 1,
               colourScale = "d3.scale.category10()",
-              legend = True,
+              legend = TRUE,
               linkDistance =
-      JS('function(){d3.select("body").style("background-color", "#ffffff"); return 10;}'), charge = -400, zoom=TRUE) %>%
+      JS('function(){d3.select("body").style("background-color", "#ffffff"); d3.select("body").style("fill", "#000000"); return 10;}'), charge = -400, zoom=TRUE) %>%
   saveNetwork(file = paste(filename, "html", sep="."))
 }
 
@@ -128,19 +128,28 @@ num_intervals <- 2
 
 # Apply Mapper
 
-{{{
-#for (num_bins in c(4, 5, 6)) {
-#  for (percent_overlap in c (40, 50, 60)) {
-#    for (num_intervals in c(10, 20, 30, 40)) {
-      num_intervals_x <- num_intervals
-      num_intervals_y <- num_intervals
-    
-      tic <- proc.time()
-      nba.mapper <- mapper(dist_object = nba.dist, filter_values = filters[filter_value_id], num_intervals = c(num_intervals_x,num_intervals_y), percent_overlap = percent_overlap, num_bins_when_clustering = num_bins)
-      tac <- proc.time()
-      tac - tic
-      name <- paste(filter_value_id, num_intervals_x, num_intervals_y, percent_overlap, num_bins, sep="_")
-      saveGraph(nba.mapper, name)
+#{{{
+for (filter_value_id in c(1,2,3,4,5,6)) {
+  for (num_bins in c(5, 10, 15, 20, 25)) {
+    for (percent_overlap in c (40, 50, 60)) {
+      for (num_intervals in c(10, 20, 30, 40)) {
+        num_intervals_x <- num_intervals
+        num_intervals_y <- num_intervals
+      
+        name <- paste(filter_value_id, num_intervals_x, num_intervals_y, percent_overlap, num_bins, sep="_")
+        print(name)
+        if (file.exists(paste(name,'_black.html', sep=""))) {
+          print("File exists")
+        }
+        else {
+          tic <- proc.time()
+          nba.mapper <- mapper(dist_object = nba.dist, filter_values = filters[filter_value_id], num_intervals = c(num_intervals_x,num_intervals_y), percent_overlap = percent_overlap, num_bins_when_clustering = num_bins)
+          tac <- proc.time()
+          print(tac - tic)
+          saveGraph(nba.mapper, name)
+        }
+
+      }
     }
   }
 }
