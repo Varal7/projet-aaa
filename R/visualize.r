@@ -135,7 +135,7 @@ ptp <- plot_ly(
   ,text = ~Name
   ,hoverinfo = "text"
   ,type = "scattergl"
-  ,color = ~GeneralPosition
+  ,color = ~Position
   ,mode = 'markers'
   ,marker = list(line = list(width = 2))
 )

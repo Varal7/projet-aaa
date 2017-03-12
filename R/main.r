@@ -41,7 +41,7 @@ nba.tsne <- Rtsne(
 saveGraph <- function(res.mapper, orig_name) {
 
   # Compute graph
-  nba.graph <- graph.adjacency(res.mapper$adjacency, mode="undirected") 
+  nba.graph <- graph.adjacency(res.mapper$adjacency, mode="undirected")
   MapperLinks <- mapperEdges(res.mapper)
   MapperNodes <- mapperVertices(res.mapper, rownames(nba.st) )
 
@@ -82,7 +82,7 @@ saveGraph <- function(res.mapper, orig_name) {
   MapperNodes["position"] <- nodeMainPosition
 
   # Display Network (Black)
-  filename <- paste(orig_name, "black" , sep="_") 
+  filename <- paste(orig_name, "black" , sep="_")
   forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
               Source = "Linksource", Target = "Linktarget",
               Value = "Linkvalue", NodeID = "Nodename",
@@ -94,7 +94,7 @@ saveGraph <- function(res.mapper, orig_name) {
   saveNetwork(file = paste(filename, "html", sep="."))
 
   # Display Network (White)
-  filename <- paste(orig_name, "white" , sep="_") 
+  filename <- paste(orig_name, "white" , sep="_")
   forceNetwork(Nodes = MapperNodes, Links = MapperLinks,
               Source = "Linksource", Target = "Linktarget",
               Value = "Linkvalue", NodeID = "Nodename",
@@ -135,7 +135,7 @@ for (filter_value_id in c(1,2,3,4,5,6)) {
       for (num_intervals in c(10, 20, 30, 40)) {
         num_intervals_x <- num_intervals
         num_intervals_y <- num_intervals
-      
+
         name <- paste(filter_value_id, num_intervals_x, num_intervals_y, percent_overlap, num_bins, sep="_")
         print(name)
         if (file.exists(paste(name,'_black.html', sep=""))) {
