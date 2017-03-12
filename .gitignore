@@ -7,4 +7,5 @@
 *.json
 .Rapp.history
 .Rhistory
-
+rapport/*
+R/*
